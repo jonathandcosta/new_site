@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  gap: 1.5rem;
+}
