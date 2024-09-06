@@ -28,3 +28,25 @@ body {
     transform: initial;
   }
 }
+
+.title {
+  font-size: 40px;
+  line-height: 22px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 4rem;
+  height: 0.3rem;
+  background: #e9cb26;
+  position: absolute;
+  bottom: 5px;
+  top: 40px;
+  border-radius: 0.2rem;
+  z-index: -1;
+}
