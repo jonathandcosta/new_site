@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './SideCard.module.css';
+import style from './Card.module.css';
 import avatar from '../../Assests/img/avatar.png';
 import Email from '../../Assests/icons/email.svg?react';
 import Phone from '../../Assests/icons/phone.svg?react';
@@ -9,10 +9,10 @@ import Linkedin from '../../Assests/icons/linkedin.png';
 import Github from '../../Assests/icons/github.png';
 import Instagram from '../../Assests/icons/instagram.png';
 
-const Content = () => {
+const Card = () => {
   return (
     <>
-      <div className={style.anime}>
+      <div className="anime">
         <section className={style.side_card}>
           <div className={style.header}>
             <img src={avatar} alt="" />
@@ -69,4 +69,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default Card;

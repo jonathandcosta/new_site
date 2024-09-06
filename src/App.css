@@ -16,3 +16,15 @@ body {
   gap: 1.5rem;
   margin: 50px 85px 0px 30px;
 }
+
+.anime {
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: animeLeft 0.9s forwards;
+}
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}

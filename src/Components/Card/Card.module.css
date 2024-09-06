@@ -1,15 +1,3 @@
-.anime {
-  opacity: 0;
-  transform: translateX(-10px);
-  animation: animeLeft 0.9s forwards;
-}
-@keyframes animeLeft {
-  to {
-    opacity: 1;
-    transform: initial;
-  }
-}
-
 .side_card {
   background-color: #474747;
   width: 290px;
