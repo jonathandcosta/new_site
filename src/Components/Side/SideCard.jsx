@@ -1,13 +1,13 @@
 import React from 'react';
-import style from './Content.module.css';
-import avatar from '../Assests/img/avatar.png';
-import Email from '../Assests/icons/email.svg?react';
-import Phone from '../Assests/icons/phone.svg?react';
-import Birthday from '../Assests/icons/calendar.svg?react';
-import Location from '../Assests/icons/location.svg?react';
-import Linkedin from '../Assests/icons/linkedin.png';
-import Github from '../Assests/icons/github.png';
-import Instagram from '../Assests/icons/instagram.png';
+import style from './SideCard.module.css';
+import avatar from '../../Assests/img/avatar.png';
+import Email from '../../Assests/icons/email.svg?react';
+import Phone from '../../Assests/icons/phone.svg?react';
+import Birthday from '../../Assests/icons/calendar.svg?react';
+import Location from '../../Assests/icons/location.svg?react';
+import Linkedin from '../../Assests/icons/linkedin.png';
+import Github from '../../Assests/icons/github.png';
+import Instagram from '../../Assests/icons/instagram.png';
 
 const Content = () => {
   return (

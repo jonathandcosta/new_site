@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Main from './Content/Main';
-import Content from './Content/Content';
+import Card from './Components/Side/SideCard';
+import Page from './Components/Pages/Pages';
 
 const App = () => {
   return (
     <>
       <div className="main">
-        <Content />
-        <Main />
+        <Card />
+        <Page />
       </div>
     </>
   );
