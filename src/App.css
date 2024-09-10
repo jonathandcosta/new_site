@@ -11,6 +11,10 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main {
   display: flex;
   gap: 1.5rem;
@@ -33,6 +37,7 @@ body {
   font-size: 40px;
   line-height: 22px;
   margin-top: 60px;
+  margin-left: 32px;
   margin-bottom: 30px;
   position: relative;
   z-index: 1;
@@ -49,4 +54,11 @@ body {
   top: 40px;
   border-radius: 0.2rem;
   z-index: -1;
+}
+
+.page {
+  width: 100%;
+  max-width: 1018px;
+  border: solid 2px #fff;
+  border-radius: 8px;
 }
