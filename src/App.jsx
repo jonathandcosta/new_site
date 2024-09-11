@@ -3,7 +3,11 @@ import './App.css';
 import Main from './Components/Main/Main';
 
 const App = () => {
-  return <Main />;
+  return (
+    <div className="anime">
+      <Main />
+    </div>
+  );
 };
 
 export default App;

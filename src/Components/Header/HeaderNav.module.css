@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   gap: 1.7rem;
-  padding: 25px;
+  padding: 1.5rem;
   border-radius: 0px 8px 0px 15px;
   background: #5d5d5d;
 }

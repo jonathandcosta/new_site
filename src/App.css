@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   color: #fff;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,9 +17,11 @@ a {
 }
 
 .main {
+  padding-top: 2rem;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
   gap: 1.5rem;
-  margin: 50px 85px 0px 30px;
 }
 
 .anime {
@@ -34,11 +37,9 @@ a {
 }
 
 .title {
-  font-size: 40px;
-  line-height: 22px;
-  margin-top: 60px;
-  margin-left: 32px;
-  margin-bottom: 30px;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+  margin: 60px 0px 32px 30px;
   position: relative;
   z-index: 1;
 }
@@ -56,9 +57,14 @@ a {
   z-index: -1;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .page {
   width: 100%;
-  max-width: 1018px;
+  max-width: 57rem;
   border: solid 2px #fff;
   border-radius: 8px;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import MainHeader from '../Main/MainHeader';
+import Header from '../Header/Header';
 
 const Resume = () => {
   return (
     <>
       <div className="page">
-        <MainHeader />
+        <Header />
       </div>
     </>
   );
