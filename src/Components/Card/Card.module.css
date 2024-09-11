@@ -1,7 +1,7 @@
 .side_card {
   background-color: #474747;
-  width: 290px;
-  height: 50rem;
+  width: 250px;
+  height: 38rem;
   border: solid 2px #fff;
   border-radius: 8px;
 }
@@ -12,13 +12,13 @@
 }
 
 .header img {
-  margin-top: 55px;
+  margin-top: 2.5rem;
+  width: 8rem;
 }
 
 .header h3 {
-  font-size: 24px;
-  margin-top: 40px;
-  margin-bottom: 35px;
+  font-size: 1.25rem;
+  padding: 1rem;
 }
 
 button {
@@ -26,44 +26,48 @@ button {
   padding: 7px 10px;
   border: none;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 
 .header span {
   content: '';
-  max-width: 230px;
+  max-width: 13rem;
   height: 2px;
   display: block;
   margin: 0 auto;
   background: #787878;
   border-radius: 8px;
-  margin: 40px 40px;
+  margin-top: 1.5rem;
 }
 
 .infos {
   display: flex;
-  margin-left: 35px;
+  margin-left: 20px;
   align-items: center;
-  margin-top: 22px;
+  margin-top: 1rem;
   gap: 8px;
 }
 
 .infos_name h4 {
   font-size: 14px;
-  margin-bottom: 5px;
   font-weight: bold;
 }
+
 .infos_name p {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 400;
   letter-spacing: 1px;
-  line-height: 10px;
 }
 
 .midias {
-  margin-top: 60px;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
-  gap: 21px;
+  gap: 1rem;
+}
+
+.midias img:hover {
+  color: #0098da;
+  transform: scale(1.5);
 }

@@ -3,11 +3,11 @@ import Header from '../Header/Header';
 
 const Resume = () => {
   return (
-    <>
-      <div className="page">
+    <section className="anime">
+      <div className="border_page">
         <Header />
       </div>
-    </>
+    </section>
   );
 };
 

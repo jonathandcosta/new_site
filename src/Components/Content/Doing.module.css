@@ -1,0 +1,40 @@
+.doing_container {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 20px;
+}
+.card {
+  background: #5d5d5d;
+  width: 25rem;
+  border-radius: 25px;
+  display: flex;
+  gap: 8px;
+}
+
+.card svg {
+  width: 100px;
+  margin: 15px;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}

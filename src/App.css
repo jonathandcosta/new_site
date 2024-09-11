@@ -37,9 +37,9 @@ a {
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5rem;
-  margin: 60px 0px 32px 30px;
+  margin: 2rem;
   position: relative;
   z-index: 1;
 }
@@ -57,14 +57,24 @@ a {
   z-index: -1;
 }
 
+.text {
+  margin: 2rem 2rem 0px 1rem;
+}
+
+.text p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
 }
 
-.page {
+.border_page {
   width: 100%;
   max-width: 57rem;
   border: solid 2px #fff;
   border-radius: 8px;
+  background: #474747;
 }
