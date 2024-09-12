@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import About_me from '../Content/About_me';
 import Doing from '../Content/Doing';
+import Testemonials from '../Content/Testemonials';
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
         <Header />
         <About_me />
         <Doing />
+        <Testemonials />
       </div>
     </section>
   );

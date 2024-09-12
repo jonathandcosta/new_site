@@ -24,28 +24,36 @@ const Card = () => {
           {/* INICIO DAS INFORMAÇÕES PESSOAIS */}
           <div className={style.informations}>
             <div className={style.infos}>
-              <Email />
+              <div className={style.icon}>
+                <Email />
+              </div>
               <div className={style.infos_name}>
                 <h4>EMAIL</h4>
                 <p>jddatsoc@gmail.com</p>
               </div>
             </div>
             <div className={style.infos}>
-              <Phone />
+              <div className={style.icon}>
+                <Phone />
+              </div>
               <div className={style.infos_name}>
                 <h4>PHONE</h4>
                 <p>+55 (84) 9 9904-3539</p>
               </div>
             </div>
             <div className={style.infos}>
-              <Birthday />
+              <div className={style.icon}>
+                <Birthday />
+              </div>
               <div className={style.infos_name}>
                 <h4>BIRTHDAY</h4>
                 <p>May 28, 1985</p>
               </div>
             </div>
             <div className={style.infos}>
-              <Location />
+              <div className={style.icon}>
+                <Location />
+              </div>
               <div className={style.infos_name}>
                 <h4>LOCATION</h4>
                 <p>Natal, Brasil</p>

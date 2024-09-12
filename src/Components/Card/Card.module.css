@@ -49,6 +49,18 @@ button {
   gap: 8px;
 }
 
+/* detalhe */
+.icon {
+  background: #787878;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .infos_name h4 {
   font-size: 14px;
   font-weight: bold;

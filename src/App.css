@@ -24,6 +24,11 @@ a {
   gap: 1.5rem;
 }
 
+.container {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
 .anime {
   opacity: 0;
   transform: translateX(-10px);
@@ -57,13 +62,33 @@ a {
   z-index: -1;
 }
 
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .text {
-  margin: 2rem 2rem 0px 1rem;
+  margin: 2rem 2rem 0px 2rem;
 }
 
 .text p {
   font-size: 1rem;
   font-weight: 400;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  text-align: start;
+  white-space: normal;
 }
 
 .header {

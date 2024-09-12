@@ -7,44 +7,52 @@ import Mobile from '../../Assests/icons/mobile.svg?react';
 
 const Doing = () => {
   return (
-    <section className={style.doing_container}>
-      <p className={style.subtitle}>What I'm Doing</p>
+    <section className="container">
+      <p className="subtitle">What I'm Doing</p>
       <div className={style.cards}>
         <div className={style.card}>
-          <Cabeca />
+          <div className={style.icon}>
+            <Cabeca />
+          </div>
           <div>
-            <p className={style.name}>Web Developer</p>
-            <p className={style.description}>
+            <p className="name">Web Developer</p>
+            <p className="description">
               I create impactful digital experiences through the development of
               modern and responsive websites
             </p>
           </div>
         </div>
         <div className={style.card}>
-          <School />
+          <div className={style.icon}>
+            <School />
+          </div>
           <div>
-            <p className={style.name}>University</p>
-            <p className={style.description}>
+            <p className="name">University</p>
+            <p className="description">
               Studying Computer Science at university to further my career in
               technology.
             </p>
           </div>
         </div>
         <div className={style.card}>
-          <Mobile />
+          <div className={style.icon}>
+            <Mobile />
+          </div>
           <div>
-            <p className={style.name}>Apps Developer</p>
-            <p className={style.description}>
+            <p className="name">Apps Developer</p>
+            <p className="description">
               I develop intuitive and functional applications for different
               platforms.
             </p>
           </div>
         </div>
         <div className={style.card}>
-          <Language />
+          <div className={style.icon}>
+            <Language />
+          </div>
           <div>
-            <p className={style.name}>Idiom</p>
-            <p className={style.description}>
+            <p className="name">Idiom</p>
+            <p className="description">
               Expanding my language skills for efficient global communication.
             </p>
           </div>
