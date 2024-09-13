@@ -22,6 +22,7 @@ a {
   justify-content: center;
   margin: 0 auto;
   gap: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 .container {

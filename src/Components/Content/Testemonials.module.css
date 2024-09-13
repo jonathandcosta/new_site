@@ -5,6 +5,7 @@
   /* gap: 20px; */
   padding: 20px;
   margin-left: -2rem;
+  margin-bottom: 4rem;
   white-space: nowrap;
   max-width: 915px;
   mask: linear-gradient(to right, transparent, red 15%, red 85%, transparent);
@@ -27,17 +28,20 @@
 
 .card {
   background: #5d5d5d;
-  width: 22rem;
+  width: 30rem;
   border-radius: 25px;
-  margin: 0px 2px 0px 90px;
+  margin: 25px 2px 0px 90px;
   display: flex;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
-.icon {
+.icon img {
   position: absolute;
-  margin: 15px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: -30px;
 }
 
 .box {
