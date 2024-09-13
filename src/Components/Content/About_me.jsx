@@ -4,11 +4,11 @@ const About_me = () => {
   return (
     <div className="text">
       <p>
-        I'm a Computer Science graduate and certified as a Frontend Engineer by
-        EBAC - British School. I have expertise in problem-solving with
-        technology, Project and team management, Data and performance analysis,
-        Business Intelligence, Marketing and paid traffic analysis, and clear
-        communication.
+        I'm student a gradate in Computer Science and certified as a Frontend
+        Engineer by EBAC - British School. I have expertise in problem-solving
+        with technology, Project and team management, Data and performance
+        analysis, Business Intelligence, Marketing and paid traffic analysis,
+        and clear communication.
       </p>
       <br />
       <p>

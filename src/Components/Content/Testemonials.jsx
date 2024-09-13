@@ -4,7 +4,7 @@ import style from './Testemonials.module.css';
 const Testemonials = () => {
   return (
     <section className="container">
-      <p className="subtitle">Testemonials</p>
+      <p className="subtitle">Recommendations</p>
       <div className={style.cards}>
         <div className={style.card}>
           <div className={style.icon}></div>

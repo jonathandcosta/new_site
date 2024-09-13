@@ -1,13 +1,13 @@
 .cards {
   display: flex;
   flex-direction: row;
-  overflow: hidden;
-  overflow-x: auto;
-  gap: 20px;
+  overflow-y: auto;
+  /* gap: 20px; */
   padding: 20px;
-  margin: 0 auto;
+  margin-left: -2rem;
   white-space: nowrap;
-  width: 700px;
+  max-width: 915px;
+  mask: linear-gradient(to right, transparent, red 15%, red 85%, transparent);
 }
 
 .cards::-webkit-scrollbar {
@@ -29,6 +29,7 @@
   background: #5d5d5d;
   width: 22rem;
   border-radius: 25px;
+  margin: 0px 2px 0px 90px;
   display: flex;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative;
