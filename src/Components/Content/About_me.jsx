@@ -4,22 +4,21 @@ const About_me = () => {
   return (
     <div className="text">
       <p>
-        Sou graduando em Ciência da Computação e certificado como Engenheiro
-        Frontend pela EBAC - Escola Britânica tenho expertise em solução de
-        problemas com tecnologia, Gerenciamento de Projetos e equipes, Análise
-        de Dados e desempenho, Business Inteligence, Analise de Marketing e
-        trafego pago, comunicação clara.
+        I'm a Computer Science graduate and certified as a Frontend Engineer by
+        EBAC - British School. I have expertise in problem-solving with
+        technology, Project and team management, Data and performance analysis,
+        Business Intelligence, Marketing and paid traffic analysis, and clear
+        communication.
       </p>
       <br />
       <p>
-        Como Desenvolvedor Frontend desde 2021 tenho experiência em HTML5
-        responsivo, semântico, com técnicas de acessibilidade e SEO, CSS3,
-        Bootstrap, Tailwind, pré-processadores LESS, SASS, BEM, SCSS,
-        JavaScript, JQuery, ReactJS, Typescript, VueJS, React Native,
-        ferramentas de construção Grunt, Gulp, Parcel, Ajax, Redux, Cypress,
-        YUP, JEST, ferramentas de controle de versão Git, Github, cosumo de
-        API´s, Metodologias Ágeis, plataforma de E-commerce VTEX, ERP Winthor –
-        TOTVS;
+        As a Frontend Developer since 2021, I have experience in responsive,
+        semantic HTML5, with accessibility and SEO techniques, CSS3, Bootstrap,
+        Tailwind, LESS, SASS, BEM, SCSS preprocessors, JavaScript, JQuery,
+        ReactJS, Typescript, VueJS, React Native, Grunt, Gulp, Parcel, Ajax,
+        Redux, Cypress, YUP, JEST build tools, Git version control tools,
+        Github, API consumption, Agile methodologies, VTEX E-commerce platform,
+        Winthor ERP - TOTVS;
       </p>
     </div>
   );

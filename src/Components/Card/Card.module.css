@@ -4,6 +4,9 @@
   height: 38rem;
   border: solid 2px #fff;
   border-radius: 8px;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .header {
