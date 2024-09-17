@@ -28,6 +28,7 @@ a {
 .container {
   margin-left: 2rem;
   margin-top: 3rem;
+  max-width: 52rem;
 }
 
 .anime {
@@ -99,8 +100,7 @@ a {
 }
 
 .border_page {
-  width: 100%;
-  max-width: 57rem;
+  width: 57rem;
   border: solid 2px #fff;
   border-radius: 8px;
   background: #474747;
