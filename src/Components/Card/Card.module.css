@@ -43,14 +43,13 @@ button {
   margin: 0 auto;
   background: #535252;
   border-radius: 8px;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0px 1.5rem 1.8rem;
 }
 
 .infos {
   display: flex;
-  margin-left: 20px;
+  margin-left: 32px;
   align-items: center;
-  margin-top: 1rem;
   gap: 8px;
 }
 

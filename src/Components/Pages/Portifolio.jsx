@@ -1,18 +1,15 @@
 import React from 'react';
 import Header from '../Header/Header';
-import Education from '../Content/Education';
-import Experience from '../Content/Experience';
 
-const Resume = () => {
+const Portifolio = () => {
   return (
     <section className="anime">
       <div className="border_page">
         <Header />
-        <Education />
-        <Experience />
+        aqui entra todos os projetos que fiz
       </div>
     </section>
   );
 };
 
-export default Resume;
+export default Portifolio;

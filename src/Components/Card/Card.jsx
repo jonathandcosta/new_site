@@ -27,7 +27,7 @@ const Card = () => {
               <div className={style.icon}>
                 <Email />
               </div>
-              <div>
+              <div className={style.infos_name}>
                 <h4 className="name">EMAIL</h4>
                 <p className="description">jddatsoc@gmail.com</p>
               </div>
