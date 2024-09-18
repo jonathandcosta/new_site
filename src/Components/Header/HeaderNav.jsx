@@ -6,9 +6,9 @@ const MainHeaderNav = () => {
   return (
     <div>
       <ul className={style.nav}>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/">About</NavLink>
         <NavLink to="/resume">Resume</NavLink>
-        <NavLink to="/portifólio">Portifólio</NavLink>
+        <NavLink to="/portifolio">Portifólio</NavLink>
         <NavLink to="/blog">Blog</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </ul>
