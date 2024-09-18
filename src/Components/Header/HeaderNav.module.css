@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.7rem;
   padding: 1.5rem;
   border-radius: 0px 8px 0px 15px;
@@ -13,4 +14,10 @@ a:focus {
 
 .nav a:global(.active) {
   color: #e9cb26;
+}
+
+@media (max-width: 50rem) {
+  .nav {
+    gap: 1rem;
+  }
 }

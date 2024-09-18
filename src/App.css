@@ -97,6 +97,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .border_page {
@@ -104,4 +105,17 @@ a {
   border: solid 2px #fff;
   border-radius: 8px;
   background: #474747;
+}
+
+@media (max-width: 50rem) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  .border_page {
+    width: 18rem;
+  }
 }
