@@ -77,6 +77,7 @@ a {
 .text p {
   font-size: 1rem;
   font-weight: 400;
+  color: #cecece;
 }
 
 .name {
@@ -88,6 +89,7 @@ a {
 .description {
   font-size: 16px;
   font-weight: 300;
+  color: #cecece;
   margin-right: 10px;
   margin-bottom: 15px;
   text-align: start;
@@ -102,7 +104,8 @@ a {
 
 .border_page {
   width: 57rem;
-  border: solid 2px #fff;
+  /* border: solid 2px #fff; */
+  box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   border-radius: 8px;
   background: #474747;
 }

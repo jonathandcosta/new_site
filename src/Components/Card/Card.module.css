@@ -2,7 +2,8 @@
   background-color: #474747;
   width: 280px;
   height: 45rem;
-  border: solid 2px #fff;
+  /* border: solid 2px #fff; */
+  box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   border-radius: 8px;
   position: sticky;
   top: 0;

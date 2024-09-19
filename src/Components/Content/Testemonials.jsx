@@ -13,13 +13,15 @@ const Testemonials = () => {
       <div className={style.cards}>
         <div className={style.card}>
           <div className={style.icon}>
-            <img src={allan} alt="" />
+            <img src={monaliza} alt="" />
           </div>
           <div className={style.box}>
-            <p className="name">Allan J. Martins</p>
+            <p className="name">Monaliza Dantas</p>
             <p className="description">
-              Super reliable and harder worker. Really know what he o doing.
-              Strongly recommend.
+              Un excelente líder e chefe. Sempre buscando maneiras de melhorar o
+              rendimento da equipe e de que tudo seja feito de maneira eficaz.
+              Super honesto e disposto a ajudar a todos, seja no ambiente de
+              trabalho e na vida social.
             </p>
           </div>
         </div>
@@ -36,20 +38,7 @@ const Testemonials = () => {
             </p>
           </div>
         </div>
-        <div className={style.card}>
-          <div className={style.icon}>
-            <img src={monaliza} alt="" />
-          </div>
-          <div className={style.box}>
-            <p className="name">Monaliza Dantas</p>
-            <p className="description">
-              Un excelente líder e chefe. Sempre buscando maneiras de melhorar o
-              rendimento da equipe e de que tudo seja feito de maneira eficaz.
-              Super honesto e disposto a ajudar a todos, seja no ambiente de
-              trabalho e na vida social.
-            </p>
-          </div>
-        </div>
+
         <div className={style.card}>
           <div className={style.icon}>
             <img src={moroni} alt="" />
@@ -73,6 +62,18 @@ const Testemonials = () => {
               Jonathan é um profissional extremamente dedicado e busca seus
               objetivos com muito empenho. Qualquer empresa/projeto terá sorte
               de tê-lo em seu time.
+            </p>
+          </div>
+        </div>
+        <div className={style.card}>
+          <div className={style.icon}>
+            <img src={allan} alt="" />
+          </div>
+          <div className={style.box}>
+            <p className="name">Allan J. Martins</p>
+            <p className="description">
+              Super reliable and harder worker. Really know what he o doing.
+              Strongly recommend.
             </p>
           </div>
         </div>
