@@ -1,0 +1,41 @@
+.skroll {
+  padding: 10px;
+  overflow: hidden;
+  mask: linear-gradient(10deg, transparent, #e9cb26, #e9cb26, transparent);
+  white-space: nowrap;
+}
+
+.skroll:hover div {
+  animation-play-state: paused;
+}
+
+.skroll div {
+  animation: 20s scrollInfinito infinite linear;
+  display: inline-block;
+}
+
+@keyframes scrollInfinito {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.skroll div span {
+  display: inline-flex;
+  margin: 10px;
+  background: #535252;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.5s;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.skroll div span:hover {
+  background: #e9cb26;
+  color: #535252;
+  cursor: pointer;
+}
