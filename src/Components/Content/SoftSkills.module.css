@@ -1,5 +1,6 @@
 .skroll {
   padding: 10px;
+  margin-bottom: 2rem;
   overflow: hidden;
   mask: linear-gradient(10deg, transparent, #e9cb26, #e9cb26, transparent);
   white-space: nowrap;
