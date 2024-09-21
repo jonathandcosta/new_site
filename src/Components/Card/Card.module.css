@@ -90,14 +90,16 @@
 }
 
 .midias img:hover {
-  /* box-shadow: 1px 1px 2px 2px rgba(250, 183, 36, 0.9); */
   cursor: pointer;
-  /* border-radius: 8px; */
   opacity: 1;
 }
 
-/* @media (max-width: 25rem) {
-  .side_card {
-    width: 22rem;
+@media (max-width: 28rem) {
+  .infos {
+    display: none;
   }
-} */
+
+  .midias {
+    padding: 1.2rem 0;
+  }
+}
