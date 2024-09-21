@@ -1,23 +1,30 @@
 .nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.7rem;
-  padding: 1.5rem;
+  gap: 3rem;
+  padding: 2rem;
   border-radius: 0px 8px 0px 15px;
   background: #5d5d5d;
 }
 
 a:hover,
 a:focus {
-  color: #e9cb26;
+  color: #ffbb11;
 }
 
 .nav a:global(.active) {
-  color: #e9cb26;
+  color: #ffbb11;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 75rem) {
   .nav {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .nav {
+    justify-content: center;
+    border-radius: 8px 8px 0px 0px;
   }
 }

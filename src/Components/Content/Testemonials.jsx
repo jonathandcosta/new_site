@@ -8,8 +8,10 @@ import leandro from '../../Assests/img/leandro.png';
 
 const Testemonials = () => {
   return (
-    <section className="container">
-      <p className="subtitle">Recommendations</p>
+    <>
+      <section className="container">
+        <p className="subtitle">Recommendations</p>
+      </section>
       <div className={style.cards}>
         <div className={style.card}>
           <div className={style.icon}>
@@ -78,7 +80,7 @@ const Testemonials = () => {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 

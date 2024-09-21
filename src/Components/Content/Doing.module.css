@@ -6,14 +6,18 @@
 }
 .card {
   background: #535252;
-  width: 25rem;
-  /* height: 8rem; */
+  width: 29.5rem;
   border-radius: 25px;
   display: flex;
-  gap: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
   margin: 15px;
+}
+
+@media (max-width: 28rem) {
+  .card {
+    width: 17.4rem;
+  }
 }

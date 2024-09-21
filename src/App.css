@@ -14,6 +14,7 @@ body {
 
 a {
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 .main {
@@ -26,9 +27,9 @@ a {
 }
 
 .container {
-  margin-left: 2rem;
-  margin-top: 3rem;
-  max-width: 52rem;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  max-width: 61rem;
 }
 
 .anime {
@@ -56,7 +57,7 @@ a {
   display: block;
   width: 4rem;
   height: 0.3rem;
-  background: #e9cb26;
+  background: #ffbb11;
   position: absolute;
   bottom: 5px;
   top: 40px;
@@ -70,8 +71,8 @@ a {
 }
 
 .text {
-  margin: 2rem 2rem 0px 2rem;
-  max-width: 50rem;
+  margin: 2rem 0rem 0px 3rem;
+  max-width: 61rem;
 }
 
 .text p {
@@ -103,22 +104,55 @@ a {
 }
 
 .border_page {
-  width: 57rem;
-  /* border: solid 2px #fff; */
+  width: 65rem;
   box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   border-radius: 8px;
   background: #474747;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 75rem) {
   .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 2rem;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    gap: 1rem;
+    padding: 1rem;
   }
 
   .border_page {
-    width: 18rem;
+    width: 40rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .border_page {
+    width: 35rem;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  .text {
+    max-width: 29rem;
+  }
+}
+
+@media (max-width: 28rem) {
+  .border_page {
+    width: 21.4rem;
+  }
+
+  .container {
+    margin-left: 2rem;
+  }
+  .text {
+    max-width: 18rem;
+    margin: 2rem 0rem 0px 2rem;
   }
 }

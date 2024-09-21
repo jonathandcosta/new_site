@@ -4,10 +4,10 @@ import avatar from '../../Assests/img/avatar.png';
 import Email from '../../Assests/icons/email.svg?react';
 import Phone from '../../Assests/icons/phone.svg?react';
 import Birthday from '../../Assests/icons/calendar.svg?react';
-import Location from '../../Assests/icons/location.svg?react';
-import Linkedin from '../../Assests/icons/linkedin.png';
-import Github from '../../Assests/icons/github.png';
-import Instagram from '../../Assests/icons/instagram.png';
+import Location from '../../Assests/icons/pin.svg?react';
+import Linkedin from '../../Assests/icons/linkedin.svg';
+import Github from '../../Assests/icons/github.svg';
+import Instagram from '../../Assests/icons/instagram.svg';
 
 const Card = () => {
   return (
@@ -17,7 +17,7 @@ const Card = () => {
           <div className={style.header}>
             <img src={avatar} alt="" />
             <h3>Jonathan D. Costa</h3>
-            <button>Frontend Developer</button>
+            <h6>Frontend Developer</h6>
             <span></span>
           </div>
 

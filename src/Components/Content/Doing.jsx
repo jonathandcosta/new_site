@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Doing.module.css';
-import Cabeca from '../../Assests/icons/cabeca.svg?react';
+import Cabeca from '../../Assests/icons/web.svg?react';
 import School from '../../Assests/icons/school.svg?react';
 import Language from '../../Assests/icons/language.svg?react';
 import Mobile from '../../Assests/icons/mobile.svg?react';

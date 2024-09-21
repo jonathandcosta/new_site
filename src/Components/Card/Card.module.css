@@ -1,8 +1,7 @@
 .side_card {
   background-color: #474747;
-  width: 280px;
-  height: 45rem;
-  /* border: solid 2px #fff; */
+  width: 21.5rem;
+  height: auto;
   box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   border-radius: 8px;
   position: sticky;
@@ -16,8 +15,8 @@
 }
 
 .header img {
-  margin-top: 2.5rem;
-  width: 6rem;
+  margin-top: 2rem;
+  width: 8rem;
   border-radius: 50%;
 }
 
@@ -26,65 +25,79 @@
   padding: 1rem;
 }
 
-button {
-  background: #9f9f9f;
-  padding: 7px 10px;
-  border: none;
+.side_card div h6 {
+  display: inline-flex;
+  margin: 10px;
+  background: #535252;
+  padding: 10px 15px;
   border-radius: 8px;
-  font-size: 0.8rem;
+  transition: 0.5s;
   font-weight: 600;
+  letter-spacing: 2px;
+  color: #a7a7a7;
+  font-size: 0.7rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.side_card div h6:hover {
+  box-shadow: 1px 1px 2px 2px rgba(250, 183, 36, 0.9);
+  cursor: pointer;
+  color: #fff;
 }
 
 .header span {
   content: '';
-  max-width: 13rem;
+  max-width: 16rem;
   height: 2px;
   display: block;
   margin: 0 auto;
   background: #535252;
   border-radius: 8px;
-  margin: 1.5rem 0px 1.5rem 1.8rem;
+  margin: 1.5rem 0px 1.5rem 2.8rem;
 }
 
 .infos {
   display: flex;
-  margin-left: 32px;
+  margin: 10px 45px;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
-/* detalhe */
 .icon {
+  display: inline-flex;
   background: #535252;
-  width: 40px;
-  height: 40px;
+  padding: 5px 10px;
   border-radius: 8px;
+  transition: 0.5s;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.infos_name h4 {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.infos_name p {
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 1px;
+.icon:hover {
+  box-shadow: 1px 1px 2px 2px rgba(250, 183, 36, 0.9);
+  cursor: pointer;
 }
 
 .midias {
-  margin-top: 4rem;
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  /* transition: 5s; */
+}
+
+.midias img {
+  opacity: 0.2;
 }
 
 .midias img:hover {
-  color: #0098da;
-  transform: scale(1.5);
+  /* box-shadow: 1px 1px 2px 2px rgba(250, 183, 36, 0.9); */
+  cursor: pointer;
+  /* border-radius: 8px; */
+  opacity: 1;
 }
+
+/* @media (max-width: 25rem) {
+  .side_card {
+    width: 22rem;
+  }
+} */

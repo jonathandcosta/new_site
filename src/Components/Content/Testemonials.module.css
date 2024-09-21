@@ -2,12 +2,10 @@
   display: flex;
   flex-direction: row;
   overflow-y: auto;
-  /* gap: 20px; */
   padding: 24px;
-  margin-left: -2rem;
   margin-bottom: 4rem;
   white-space: nowrap;
-  max-width: 915px;
+  max-width: 1070px;
   mask: linear-gradient(to right, transparent, red 5%, red 95%, transparent);
 }
 
@@ -22,7 +20,7 @@
 }
 
 .cards::-webkit-scrollbar-thumb {
-  background-color: #e9cb26;
+  background-color: #ffbb11;
   border-radius: 8px;
 }
 
@@ -34,6 +32,12 @@
   display: flex;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   position: relative;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 2px 2px rgba(250, 183, 36, 0.9);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .icon img {
@@ -48,4 +52,25 @@
   padding: 20px;
   text-align: center;
   width: max-content;
+}
+
+@media (max-width: 40rem) {
+  .cards {
+    max-width: 555px;
+  }
+}
+
+@media (max-width: 28rem) {
+  .cards {
+    max-width: 330px;
+    margin-left: 5px;
+  }
+
+  .card {
+    width: 15rem;
+  }
+
+  .box {
+    margin-top: 1rem;
+  }
 }
