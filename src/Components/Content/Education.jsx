@@ -14,7 +14,7 @@ const Education = () => {
           <li>
             <p className="name">Bachelor of Computer Science</p>
             <p className={style.date}>2021-2025</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               With this training, I was able to improve my knowledge in the
               areas of programming, data structures, algorithms, computer
               networks, databases and operating systems. This course also covers
@@ -30,7 +30,7 @@ const Education = () => {
           <li>
             <p className="name">Frontend Engineer</p>
             <p className={style.date}>2022-2024</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               As a Front-End engineer, I am responsible for developing and
               implementing the interface of applications and websites, ensuring
               direct user interaction with the product. To this end, I am
@@ -46,7 +46,7 @@ const Education = () => {
           <li>
             <p className="name">FullStack Developer</p>
             <p className={style.date}>2020-2021</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               In this Fullstack development course, I learned all the steps to
               create web applications on both the front-end and back-end. On the
               front-end, I learned languages ​​such as HTML, CSS, and

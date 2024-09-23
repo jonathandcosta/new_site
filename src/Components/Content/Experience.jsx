@@ -15,7 +15,7 @@ const Experience = () => {
             <p className="name">E-commerce Supervision & Frontend Developer</p>
             <p className={style.date}>Brazz Brazz Papelaria</p>
             <p className={style.date}>mai de 2024</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               With extensive experience in leadership and innovation, I managed
               multidisciplinary Marketing, Registration and Customer Service
               teams, ensuring the integration and efficient execution of
@@ -36,10 +36,10 @@ const Experience = () => {
         </ul>
         <ul>
           <li>
-            <p className="name">E-commerce Supervision & Frontend Developer</p>
+            <p className="name">Development assistant - VTEX</p>
             <p className={style.date}>Comercial Maranguape</p>
             <p className={style.date}>out de 2022- mar de 2024</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               I started as a development assistant, but due to my experience in
               leading strategic projects, I led the implementation of PIX and
               new integrations, and was promoted to take on the role of
@@ -73,10 +73,10 @@ const Experience = () => {
         </ul>
         <ul>
           <li>
-            <p className="name">Gerente de vendas e de franquias</p>
+            <p className="name">Franchise and Sales Manager</p>
             <p className={style.date}>Royal Prestige</p>
             <p className={style.date}>out de 2014- mar de 2020</p>
-            <p className="description">
+            <p className={`${style.align} description`}>
               I started this project as a door-to-door salesman and, as my
               professional development progressed, I received an offer to
               supervise and later manage 5 franchises spread throughout Brazil.

@@ -18,13 +18,13 @@ a:focus {
 
 @media (max-width: 75rem) {
   .nav {
+    justify-content: center;
     gap: 1rem;
   }
 }
 
 @media (max-width: 40rem) {
   .nav {
-    justify-content: center;
     border-radius: 8px 8px 0px 0px;
     padding: 1rem;
   }

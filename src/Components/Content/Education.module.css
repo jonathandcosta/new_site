@@ -39,3 +39,23 @@
 .date {
   margin: 3px 0px 3px 0px;
 }
+
+@media (max-width: 75rem) {
+  .align {
+    width: 370px;
+  }
+
+  .box::before {
+    height: 66%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .align {
+    width: 230px;
+  }
+
+  .box::before {
+    height: 64%;
+  }
+}
