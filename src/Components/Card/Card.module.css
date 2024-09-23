@@ -99,7 +99,11 @@
     display: none;
   }
 
+  .header span {
+    margin: 0.5rem 0px 0.5rem 2.8rem;
+  }
+
   .midias {
-    padding: 1.2rem 0;
+    padding: 0.8rem 0;
   }
 }

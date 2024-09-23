@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  margin: 3rem 0rem 3.1rem 3rem;
+  margin: 3rem 0rem 1.1rem 3rem;
   max-width: 61rem;
 }
 
@@ -64,6 +64,15 @@ a {
   z-index: -1;
 }
 
+.aux {
+  font-size: 16px;
+  font-weight: 300;
+  color: #cecece;
+  margin-right: 10px;
+  text-align: start;
+  white-space: normal;
+}
+
 .subtitle {
   font-size: 1.25rem;
   font-weight: bold;
@@ -91,7 +100,7 @@ a {
   font-weight: 300;
   color: #cecece;
   margin-right: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   text-align: start;
   white-space: normal;
 }
@@ -112,8 +121,6 @@ a {
 
 @media (max-width: 75rem) {
   .main {
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
     gap: 1rem;
     padding: 1rem;
   }

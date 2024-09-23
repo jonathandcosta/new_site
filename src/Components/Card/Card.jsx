@@ -29,7 +29,7 @@ const Card = () => {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">EMAIL</h4>
-                <p className="description">jddatsoc@gmail.com</p>
+                <p className="aux">jddatsoc@gmail.com</p>
               </div>
             </div>
             <div className={style.infos}>
@@ -38,7 +38,7 @@ const Card = () => {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">PHONE</h4>
-                <p className="description">+55 (84) 9 9904-3539</p>
+                <p className="aux">+55 (84) 9 9904-3539</p>
               </div>
             </div>
             <div className={style.infos}>
@@ -47,7 +47,7 @@ const Card = () => {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">BIRTHDAY</h4>
-                <p className="description">May 28, 1985</p>
+                <p className="aux">May 28, 1985</p>
               </div>
             </div>
             <div className={style.infos}>
@@ -56,7 +56,7 @@ const Card = () => {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">LOCATION</h4>
-                <p className="description">Natal, Brasil</p>
+                <p className="aux">Natal, Brasil</p>
               </div>
             </div>
           </div>

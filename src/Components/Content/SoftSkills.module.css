@@ -1,6 +1,4 @@
 .skroll {
-  padding: 10px;
-  margin-bottom: 2rem;
   overflow: hidden;
   mask: linear-gradient(10deg, transparent, #e9cb26, #e9cb26, transparent);
   white-space: nowrap;
@@ -11,7 +9,7 @@
 }
 
 .skroll div {
-  animation: 20s scrollInfinito infinite linear;
+  animation: 30s scrollInfinito infinite linear;
   display: inline-block;
 }
 
@@ -31,12 +29,57 @@
   padding: 10px 15px;
   border-radius: 8px;
   transition: 0.5s;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 1px;
 }
 
 .skroll div span:hover {
   background: #57ad2c;
+  color: #000;
+  cursor: pointer;
+}
+
+/* -----------REVERSE----------- */
+.reverse {
+  padding: 10px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  /* mask: linear-gradient(10deg, transparent, #e9cb26, #e9cb26, transparent); */
+  white-space: nowrap;
+}
+
+.reverse:hover div {
+  animation-play-state: paused;
+}
+
+.reverse div {
+  animation: 50s scrollInfinito infinite linear;
+  display: inline-block;
+  animation-direction: reverse;
+  /* animation-direction: reverse; */
+}
+
+@keyframes scrollInfinito {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.reverse div span {
+  display: inline-flex;
+  margin: 10px;
+  background: #535252;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.5s;
+  width: auto;
+}
+
+.reverse div span:hover {
+  background: #ffbb11;
   color: #000;
   cursor: pointer;
 }
