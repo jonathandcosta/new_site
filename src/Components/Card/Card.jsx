@@ -61,13 +61,16 @@ const Card = () => {
             </div>
           </div>
           <div className={style.midias}>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/jonathanduartecosta/"
+              target="_blank"
+            >
               <img src={Linkedin} alt="" />
             </a>
-            <a href="">
+            <a href="https://github.com/jonathandcosta" target="_blank">
               <img src={Github} alt="" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/jonathanatsoc/" target="_blank">
               <img src={Instagram} alt="" />
             </a>
           </div>
