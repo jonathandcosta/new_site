@@ -19,27 +19,28 @@ const Projects = () => {
             <img
               className={style.image}
               src={bikcraft}
-              alt="projeto bikcraft"
+              alt="projeto bikcraft store's bike "
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a
                   href="http://bikcraft-final-five.vercel.app/"
                   target="_blank"
                 >
-                  Bikraft
+                  Bikcraft
                 </a>
-                <span className="description">
+                <span>
                   <img src={Visu} alt="" />
                 </span>
-              </p>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
-            <span className="name">Bikraft</span>
+          <div className={style.subTitles}>
+            <span className="name">Store Bikcraft</span>
             <span className="description">Web Development</span>
           </div>
         </div>
+
         <div>
           <div className={style.card}>
             <img
@@ -48,19 +49,22 @@ const Projects = () => {
               alt="projeto menu digital"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a href="https://e-menu-mu.vercel.app/" target="_blank">
                   E-Menu
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">E-Menu</span>
             <span className="description">Web Development</span>
           </div>
         </div>
+
         <div>
           <div className={style.card}>
             <img
@@ -69,19 +73,22 @@ const Projects = () => {
               alt="projeto cadastro de evento"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a href="https://pass-cooking.vercel.app/" target="_blank">
                   Pass-IN
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">Pass-IN Cooking</span>
             <span className="description">Web Development</span>
           </div>
         </div>
+
         <div>
           <div className={style.card}>
             <img
@@ -90,15 +97,17 @@ const Projects = () => {
               alt="projeto ecommerce de jogos"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a href="https://eplay-one.vercel.app/" target="_blank">
                   Eplay
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">E-Commerce Eplay</span>
             <span className="description">Web Development</span>
           </div>
@@ -111,18 +120,20 @@ const Projects = () => {
               alt="projeto Restaurantes Efood"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a
                   href="https://react-ecommerce-efood.vercel.app/"
                   target="_blank"
                 >
                   Efood
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name"> Restaurant Efood</span>
             <span className="description">Web Development</span>
           </div>
@@ -135,15 +146,17 @@ const Projects = () => {
               alt="projeto beutysalon"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a href="https://beauty-salon-beta.vercel.app/" target="_blank">
                   BeautySalon
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">BeautySalon</span>
             <span className="description">Web Development</span>
           </div>
@@ -156,18 +169,20 @@ const Projects = () => {
               alt="projeto salon barber"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a
                   href="https://style-salao-bootstrap.vercel.app/"
                   target="_blank"
                 >
                   Barber Shop
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">Barber Shop</span>
             <span className="description">Web Development</span>
           </div>
@@ -180,18 +195,20 @@ const Projects = () => {
               alt="projeto restaurant fineze"
             />
             <div className={style.overlay}>
-              <p className={style.overlayName}>
+              <div className={style.overlayName}>
                 <a
                   href="https://restaurant-three-sigma.vercel.app/"
                   target="_blank"
                 >
                   Fineze
                 </a>
-                <span className="description">Web Development</span>
-              </p>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
             </div>
           </div>
-          <div className={style.subTitle}>
+          <div className={style.subTitles}>
             <span className="name">Restaurant Fineze</span>
             <span className="description">Web Development</span>
           </div>

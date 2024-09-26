@@ -9,13 +9,14 @@
   position: relative;
   margin-top: 100px;
   cursor: pointer;
+  border-radius: 8px;
   overflow: hidden;
 }
 
 .image {
   width: 300px;
   height: 220px;
-  border-radius: 8px;
+  border-radius: 18px;
   transition: 0.6s ease transform;
 }
 
@@ -27,22 +28,21 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
   transition: 0.7s ease;
-  /* opacity: 0; */
+  opacity: 0;
+  display: grid;
+  align-items: center;
 }
 
-.overlay p {
+.overlay .overlayName {
   text-align: center;
   display: grid;
   grid-area: 1/1;
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
 }
 
 .card:hover .image {
   transform: scale(1.1);
-  border-radius: 8px;
-  /* background: url(../../Assests/icons/visualizacao.svg) no-repeat; */
 }
 
 .overlayName a {
@@ -50,7 +50,13 @@
   font-weight: bold;
 }
 
-.subTitle {
+.overlayName span img {
+  width: 20px;
+  margin-top: 3px;
+  opacity: 0.3;
+}
+
+.subTitles {
   display: grid;
   grid-area: 1/1;
 }
