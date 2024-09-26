@@ -7,7 +7,7 @@
 
 .card {
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
   cursor: pointer;
   border-radius: 8px;
   overflow: hidden;
@@ -59,6 +59,17 @@
 .subTitles {
   display: grid;
   grid-area: 1/1;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  color: #cecece;
+}
+
+.icon img {
+  margin-right: 5px;
 }
 
 .card:hover .overlay {

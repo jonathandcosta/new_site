@@ -58,90 +58,96 @@ const SoftSkills = () => {
 export default SoftSkills;
 
 //  <div>
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-//             height="100"
-//             alt="html5 logo"
-//             title="html5 logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-//             height="100"
-//             alt="css3 logo"
-//             title="css3 logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-//             height="100"
-//             alt="figma logo"
-//             title="figma logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-//             height="100"
-//             alt="javascript logo"
-//             title="javascript logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
-//             height="100"
-//             alt="jquery logo"
-//             title="jquery logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-//             height="100"
-//             alt="react logo"
-//             title="react logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-//             height="100"
-//             alt="nextjs logo"
-//             title="nextjs logo"
-//           />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+//   height="100"
+//   alt="html5 logo"
+//   title="html5 logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+//   height="100"
+//   alt="css3 logo"
+//   title="css3 logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+//   height="100"
+//   alt="css3 logo"
+//   title="css3 logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+//   height="100"
+//   alt="figma logo"
+//   title="figma logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+//   height="100"
+//   alt="javascript logo"
+//   title="javascript logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+//   height="100"
+//   alt="jquery logo"
+//   title="jquery logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+//   height="100"
+//   alt="react logo"
+//   title="react logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+//   height="100"
+//   alt="nextjs logo"
+//   title="nextjs logo"
+// />
 //           <img
 //             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
 //             height="100"
 //             alt="vuejs logo"
 //             title="vuejs logo"
 //           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-//             height="100"
-//             alt="tailwindcss logo"
-//             title="tailwindcss logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-//             height="100"
-//             alt="redux logo"
-//             title="redux logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"
-//             height="100"
-//             alt="eslint logo"
-//             title="eslint logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-//             height="100"
-//             alt="typescript logo"
-//             title="typescript logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-//             height="100"
-//             alt="git logo"
-//             title="git logo"
-//           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-//             height="100"
-//             alt="github logo"
-//             title="github logo"
-//           />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+//   height="100"
+//   alt="tailwindcss logo"
+//   title="tailwindcss logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+//   height="100"
+//   alt="redux logo"
+//   title="redux logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"
+//   height="100"
+//   alt="eslint logo"
+//   title="eslint logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+//   height="100"
+//   alt="typescript logo"
+//   title="typescript logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+//   height="100"
+//   alt="git logo"
+//   title="git logo"
+// />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+//   height="100"
+//   alt="github logo"
+//   title="github logo"
+// />
 //           <img
 //             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg"
 //             height="100"
@@ -232,10 +238,10 @@ export default SoftSkills;
 //             alt="vscode logo"
 //             title="vscode logo"
 //           />
-//           <img
-//             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
-//             height="100"
-//             alt="trello logo"
-//             title="trello logo"
-//           />
+// <img
+//   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+//   height="100"
+//   alt="trello logo"
+//   title="trello logo"
+// />
 //         </div>
