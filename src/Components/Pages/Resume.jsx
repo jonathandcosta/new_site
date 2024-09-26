@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Education from '../Content/Education';
 import Experience from '../Content/Experience';
+import SoftSkills from '../Content/SoftSkills';
 
 const Resume = () => {
   return (
@@ -10,6 +11,7 @@ const Resume = () => {
         <Header />
         <Education />
         <Experience />
+        <SoftSkills />
       </div>
     </section>
   );

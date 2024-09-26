@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 import About_me from '../Content/About_me';
 import Doing from '../Content/Doing';
 import Testemonials from '../Content/Testemonials';
-import SoftSkills from '../Content/SoftSkills';
 
 const About = () => {
   return (
@@ -13,7 +12,6 @@ const About = () => {
         <About_me />
         <Doing />
         <Testemonials />
-        <SoftSkills />
       </div>
     </section>
   );

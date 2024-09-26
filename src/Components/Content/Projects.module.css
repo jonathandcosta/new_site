@@ -1,23 +1,62 @@
-.fullCard {
+.fullCards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 1.5rem;
 }
 
-.card img {
+.card {
+  position: relative;
+  margin-top: 100px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.image {
   width: 300px;
   height: 220px;
   border-radius: 8px;
   transition: 0.6s ease transform;
 }
 
-.card img:hover {
-  transform: scale(1.5);
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.7s ease;
+  /* opacity: 0; */
 }
 
-.goProject {
-  margin-top: 0.5rem;
+.overlay p {
+  text-align: center;
+  display: grid;
+  grid-area: 1/1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.card:hover .image {
+  transform: scale(1.1);
+  border-radius: 8px;
+  /* background: url(../../Assests/icons/visualizacao.svg) no-repeat; */
+}
+
+.overlayName a {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.subTitle {
+  display: grid;
+  grid-area: 1/1;
+}
+
+.card:hover .overlay {
+  opacity: 1;
 }
 
 @media (max-width: 75rem) {
