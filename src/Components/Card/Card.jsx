@@ -9,7 +9,7 @@ import Linkedin from '../../Assests/icons/linkedin.svg';
 import Github from '../../Assests/icons/github.svg';
 import Instagram from '../../Assests/icons/instagram.svg';
 
-const Card = () => {
+function Card() {
   return (
     <>
       <div className="anime">
@@ -78,6 +78,6 @@ const Card = () => {
       </div>
     </>
   );
-};
+}
 
 export default Card;

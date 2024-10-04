@@ -83,13 +83,13 @@ const Projects = () => {
           <div className={style.card}>
             <img
               className={style.image}
-              src={menu}
-              alt="projeto menu digital"
+              src={beautySalon}
+              alt="projeto beutysalon"
             />
             <div className={style.overlay}>
               <div className={style.overlayName}>
-                <a href="https://e-menu-mu.vercel.app/" target="_blank">
-                  E-Menu
+                <a href="https://beauty-salon-beta.vercel.app/" target="_blank">
+                  BeautySalon
                 </a>
                 <span>
                   <img src={Visu} alt="" />
@@ -98,15 +98,9 @@ const Projects = () => {
             </div>
           </div>
           <div className={style.subTitles}>
-            <span className="name">E-Menu</span>
+            <span className="name">BeautySalon</span>
             <span className={style.description}>Web Development</span>
             <span className={style.icon}>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
-                height="20"
-                alt="trello logo"
-                title="trello logo"
-              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                 height="20"
@@ -151,13 +145,13 @@ const Projects = () => {
           <div className={style.card}>
             <img
               className={style.image}
-              src={beautySalon}
-              alt="projeto beutysalon"
+              src={menu}
+              alt="projeto menu digital"
             />
             <div className={style.overlay}>
               <div className={style.overlayName}>
-                <a href="https://beauty-salon-beta.vercel.app/" target="_blank">
-                  BeautySalon
+                <a href="https://e-menu-mu.vercel.app/" target="_blank">
+                  E-Menu
                 </a>
                 <span>
                   <img src={Visu} alt="" />
@@ -166,9 +160,15 @@ const Projects = () => {
             </div>
           </div>
           <div className={style.subTitles}>
-            <span className="name">BeautySalon</span>
+            <span className="name">E-Menu</span>
             <span className={style.description}>Web Development</span>
             <span className={style.icon}>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+                height="20"
+                alt="trello logo"
+                title="trello logo"
+              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                 height="20"

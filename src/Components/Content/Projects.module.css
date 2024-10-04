@@ -58,7 +58,7 @@
 
 .subTitles {
   display: grid;
-  grid-area: 1/1;
+  margin-left: 10px;
 }
 
 .description {
@@ -81,11 +81,19 @@
     width: 470px;
     height: 300px;
   }
+
+  .overlayName span img {
+    display: none;
+  }
 }
 
 @media (max-width: 40rem) {
   .card img {
     width: 280px;
     height: 210px;
+  }
+
+  .overlayName span img {
+    display: none;
   }
 }
