@@ -9,6 +9,11 @@ function MainHeaderNav() {
     setIsOpen(!isOpen);
   };
 
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    setIsOpen(true);
+  }, [pathname]);
+
   return (
     <header>
       <nav>
