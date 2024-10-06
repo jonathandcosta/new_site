@@ -99,14 +99,8 @@ const Projects = () => {
           </div>
           <div className={style.subTitles}>
             <span className="name">BeautySalon</span>
-            <span className={style.description}>Web Development</span>
+            <span className={style.description}>Frontend Development</span>
             <span className={style.icon}>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                height="20"
-                alt="figma logo"
-                title="figma logo"
-              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 height="20"
@@ -232,14 +226,8 @@ const Projects = () => {
           </div>
           <div className={style.subTitles}>
             <span className="name">Barber Shop</span>
-            <span className={style.description}>Web Development</span>
+            <span className={style.description}>Frontend Development</span>
             <span className={style.icon}>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                height="20"
-                alt="figma logo"
-                title="figma logo"
-              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 height="20"
@@ -309,14 +297,8 @@ const Projects = () => {
           </div>
           <div className={style.subTitles}>
             <span className="name">Restaurant Fineze</span>
-            <span className={style.description}>Web Development</span>
+            <span className={style.description}>Frontend Development</span>
             <span className={style.icon}>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                height="20"
-                alt="figma logo"
-                title="figma logo"
-              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 height="20"
@@ -386,12 +368,6 @@ const Projects = () => {
             <span className="name">Pass-IN Cooking</span>
             <span className={style.description}>Web Development</span>
             <span className={style.icon}>
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                height="20"
-                alt="figma logo"
-                title="figma logo"
-              />
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                 height="20"

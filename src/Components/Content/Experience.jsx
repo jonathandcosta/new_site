@@ -12,7 +12,7 @@ const Experience = () => {
       <div className={style.box}>
         <ul>
           <li>
-            <p className="name">E-commerce Supervision & Frontend Developer</p>
+            <p className="name">E-commerce Supervision</p>
             <p className={style.date}>Brazz Brazz Papelaria</p>
             <p className={style.date}>mai de 2024</p>
             <p className={`${style.align} description`}>
@@ -36,7 +36,7 @@ const Experience = () => {
         </ul>
         <ul>
           <li>
-            <p className="name">Development assistant - VTEX</p>
+            <p className="name">Frontend Development Assistant - VTEX</p>
             <p className={style.date}>Comercial Maranguape</p>
             <p className={style.date}>out de 2022- mar de 2024</p>
             <p className={`${style.align} description`}>

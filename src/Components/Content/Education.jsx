@@ -12,22 +12,6 @@ const Education = () => {
       <div className={style.box}>
         <ul>
           <li>
-            <p className="name">Bachelor of Computer Science</p>
-            <p className={style.date}>2021-2025</p>
-            <p className={`${style.align} description`}>
-              With this training, I was able to improve my knowledge in the
-              areas of programming, data structures, algorithms, computer
-              networks, databases and operating systems. This course also covers
-              advanced topics such as artificial intelligence, information
-              security and computer graphics. In addition to developing
-              technical skills, critical thinking and problem-solving, it
-              prepares students to work in various areas of technology and
-              innovation.
-            </p>
-          </li>
-        </ul>
-        <ul>
-          <li>
             <p className="name">Frontend Engineer</p>
             <p className={style.date}>2022-2024</p>
             <p className={`${style.align} description`}>
@@ -39,6 +23,22 @@ const Education = () => {
               pages. In addition to these, I use frameworks such as React and
               VueJS that optimize development, allowing the creation of dynamic
               and efficient interfaces.
+            </p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p className="name">Bachelor of Computer Science</p>
+            <p className={style.date}>2021-2025</p>
+            <p className={`${style.align} description`}>
+              With this training, I was able to improve my knowledge in the
+              areas of programming, data structures, algorithms, computer
+              networks, databases and operating systems. This course also covers
+              advanced topics such as artificial intelligence, information
+              security and computer graphics. In addition to developing
+              technical skills, critical thinking and problem-solving, it
+              prepares students to work in various areas of technology and
+              innovation.
             </p>
           </li>
         </ul>
