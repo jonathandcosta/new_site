@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from '../Pages/About';
 import Resume from '../Pages/Resume';
 import Portifolio from '../Pages/Portifolio';
+import Contact from '../Pages/Contact';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/portifolio" element={<Portifolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -21,7 +21,7 @@ const Header = () => {
       case '/blog':
         setTitle('Blog');
         break;
-      case 'contact':
+      case '/contact':
         setTitle('Contact');
         break;
     }

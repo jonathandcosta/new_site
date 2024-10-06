@@ -91,6 +91,7 @@ a {
 
 .name {
   font-size: 18px;
+  margin-top: 5px;
   font-weight: bold;
 }
 
@@ -124,7 +125,7 @@ a {
   }
 
   .description {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .main {
