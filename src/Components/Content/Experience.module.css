@@ -14,10 +14,9 @@
   position: absolute;
   width: 1px;
   height: 69%;
-  background: #fff;
+  background: #737373;
   margin: -39px;
-  top: 22px;
-  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
+  top: 33px;
 }
 
 .box ul li {
@@ -34,6 +33,7 @@
   background: #f6dc43;
   margin-left: -44px;
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
 
 .date {
@@ -46,7 +46,7 @@
   }
 
   .box::before {
-    height: 68%;
+    height: 67.5%;
   }
 }
 

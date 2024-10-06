@@ -90,7 +90,6 @@ a {
 }
 
 .name {
-  margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
 }
@@ -120,13 +119,21 @@ a {
 }
 
 @media (max-width: 75rem) {
+  .container {
+    margin: 2rem 0rem 2.1rem 2rem;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
   .main {
     gap: 1rem;
     padding: 1rem;
   }
 
   .border_page {
-    width: 35rem;
+    width: 32rem;
   }
 
   .header {
@@ -134,7 +141,7 @@ a {
   }
 
   .text {
-    max-width: 29rem;
+    max-width: 26rem;
   }
 }
 

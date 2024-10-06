@@ -16,6 +16,12 @@
   margin: 15px;
 }
 
+@media (max-width: 75rem) {
+  .card {
+    width: 26.5rem;
+  }
+}
+
 @media (max-width: 28rem) {
   .card {
     width: 17.4rem;

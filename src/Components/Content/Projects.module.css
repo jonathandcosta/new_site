@@ -77,9 +77,17 @@
 }
 
 @media (max-width: 75rem) {
+  .fullCards {
+    gap: 50px;
+  }
+
+  .card {
+    margin-top: 0;
+  }
+
   .card img {
-    width: 470px;
-    height: 300px;
+    width: 430px;
+    height: 260px;
   }
 
   .overlayName span img {
@@ -91,9 +99,5 @@
   .card img {
     width: 280px;
     height: 210px;
-  }
-
-  .overlayName span img {
-    display: none;
   }
 }

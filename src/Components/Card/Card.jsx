@@ -28,7 +28,7 @@ function Card() {
                 <Email />
               </div>
               <div className={style.infos_name}>
-                <h4 className="name">EMAIL</h4>
+                <h4 className="name">Email</h4>
                 <p className="aux">jddatsoc@gmail.com</p>
               </div>
             </div>
@@ -37,7 +37,7 @@ function Card() {
                 <Phone />
               </div>
               <div className={style.infos_name}>
-                <h4 className="name">PHONE</h4>
+                <h4 className="name">Phone</h4>
                 <p className="aux">+55 (84) 9 9904-3539</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ function Card() {
                 <Birthday />
               </div>
               <div className={style.infos_name}>
-                <h4 className="name">BIRTHDAY</h4>
+                <h4 className="name">Birthday</h4>
                 <p className="aux">May 28, 1985</p>
               </div>
             </div>
@@ -55,7 +55,7 @@ function Card() {
                 <Location />
               </div>
               <div className={style.infos_name}>
-                <h4 className="name">LOCATION</h4>
+                <h4 className="name">Location</h4>
                 <p className="aux">Natal, Brasil</p>
               </div>
             </div>
