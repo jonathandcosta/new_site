@@ -5,6 +5,7 @@ import About from '../Pages/About';
 import Resume from '../Pages/Resume';
 import Portifolio from '../Pages/Portifolio';
 import Contact from '../Pages/Contact';
+import Certificates from '../Pages/Certficates';
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
           <Route path="/resume" element={<Resume />} />
           <Route path="/portifolio" element={<Portifolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/certificates" element={<Certificates />} />
         </Routes>
       </BrowserRouter>
     </div>

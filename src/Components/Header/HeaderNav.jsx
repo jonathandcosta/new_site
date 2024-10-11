@@ -26,7 +26,7 @@ function MainHeaderNav() {
           <NavLink to="/">About</NavLink>
           <NavLink to="/resume">Resume</NavLink>
           <NavLink to="/portifolio">Portifólio</NavLink>
-          <NavLink to="/blog">Blog</NavLink>
+          <NavLink to="/certificates">Certificates</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </ul>
       </nav>

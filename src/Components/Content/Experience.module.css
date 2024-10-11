@@ -15,8 +15,8 @@
   width: 1px;
   height: 69%;
   background: #737373;
-  margin: -39px;
-  top: 33px;
+  margin: -38px;
+  top: 30px;
 }
 
 .box ul li {
@@ -31,7 +31,7 @@
   margin-top: 6px;
   border-radius: 50%;
   background: #f6dc43;
-  margin-left: -44px;
+  margin-left: -43px;
   box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
@@ -46,7 +46,7 @@
   }
 
   .box::before {
-    height: 67.5%;
+    height: 66.5%;
   }
 }
 
@@ -58,6 +58,11 @@
 
   .box::before {
     height: 67.7%;
-    top: 30px;
+  }
+}
+
+@media (max-width: 28rem) {
+  .box::before {
+    top: 25px;
   }
 }

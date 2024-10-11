@@ -24,6 +24,9 @@ const Header = () => {
       case '/contact':
         setTitle('Contact');
         break;
+      case '/certificates':
+        setTitle('Certificates');
+        break;
     }
   }, [location]);
 

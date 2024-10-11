@@ -17,7 +17,7 @@ textarea {
   border: solid 1px #fff;
   background: #545454;
   padding: 1rem;
-  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 16px;
   letter-spacing: 2px;
   transition: 0.9s;
@@ -46,12 +46,11 @@ button {
   color: #fb1;
   background: #5d5d5d;
   padding: 12px;
-  margin-top: 30px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  width: 226px;
-  transition: 0.3s;
+  width: 230px;
+  transition: 0.9s;
 }
 
 button:hover {
