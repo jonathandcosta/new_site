@@ -10,6 +10,8 @@ form {
 label {
   display: block;
   margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 input,
@@ -21,11 +23,31 @@ textarea {
   padding: 0.8rem;
   letter-spacing: 2px;
   font-size: 20px;
+  font-weight: 600;
   transition: 0.2s;
 }
 
 input:focus,
 textarea:focus {
+  outline: none;
+  border-color: darkgoldenrod;
+  box-shadow: 0 0 0 3px #cecece;
+  color: #000;
+  background: white;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
   outline: none;
   border-color: darkgoldenrod;
   box-shadow: 0 0 0 3px #cecece;
