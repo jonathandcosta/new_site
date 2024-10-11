@@ -31,10 +31,10 @@ a:focus {
 @media (max-width: 40rem) {
   .buttonMobile {
     background: #5d5d5d;
-    border-radius: 0.2rem;
-    height: 40px;
+    border-radius: 0.8rem;
+    height: 10px;
     width: 40px;
-    margin: 0.5rem;
+    margin: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,17 +47,17 @@ a:focus {
   .buttonMobile::after {
     content: '';
     display: block;
-    width: 1.2rem;
-    height: 2px;
+    width: 4px;
+    height: 4px;
     border-radius: 2px;
     background: currentColor;
     box-shadow: 0 6px currentColor, 0 -6px currentColor;
+    transform: rotate(90deg);
     transition: 0.2s;
   }
 
   .buttonMobile:focus,
-  .buttonMobile:hover,
-  .buttonMobileActive {
+  .buttonMobile:hover {
     outline: none;
     box-shadow: 0 0 0 3px #5d5d5d;
     border-color: #fb1;

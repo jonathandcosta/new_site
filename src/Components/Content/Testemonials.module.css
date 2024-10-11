@@ -62,7 +62,6 @@
 @media (max-width: 28rem) {
   .cards {
     max-width: 330px;
-    margin-left: 5px;
   }
 
   .card {

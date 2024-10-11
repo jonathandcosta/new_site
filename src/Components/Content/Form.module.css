@@ -2,7 +2,7 @@ form {
   display: block;
   text-align: -webkit-right;
   margin-top: 15px;
-  width: 80%;
+  width: 90%;
 }
 
 .namesForm {
@@ -25,7 +25,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #818181;
+  color: #dfdfdf;
 }
 
 input:focus,
@@ -57,9 +57,14 @@ button {
 button:hover {
   background: #474747;
   color: #b4b4b3;
+  box-shadow: 0 0 0 1px #fff;
 }
 
 @media (max-width: 28rem) {
+  form {
+    width: 95%;
+  }
+
   .namesForm {
     display: block;
   }

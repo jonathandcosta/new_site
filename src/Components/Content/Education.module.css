@@ -51,10 +51,12 @@
 
 @media (max-width: 40rem) {
   .align {
-    width: 230px;
+    width: 240px;
+    font-size: 14px;
   }
 
   .box::before {
-    height: 62.2%;
+    height: 63.2%;
+    top: 30px;
   }
 }

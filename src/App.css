@@ -164,10 +164,19 @@ a {
   }
 
   .container {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
+
+  .title {
+    margin: 1rem;
+  }
+
   .text {
     max-width: 18rem;
     margin: 2rem 0rem 0px 2rem;
+  }
+
+  .name {
+    margin-top: 10px;
   }
 }

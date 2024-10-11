@@ -56,7 +56,7 @@ const Form = () => {
             onChange={(event) => setNome(event.target.value)}
           />
           <input
-            placeholder="Email adress"
+            placeholder="Email Adress"
             id="email"
             type="text"
             name="email"
