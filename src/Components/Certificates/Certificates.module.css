@@ -1,14 +1,21 @@
+.titulo {
+  margin-top: 6rem;
+  margin-left: 20px;
+  color: #fb1;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 20px;
-  margin-top: 50px;
+  margin: 20px 0px 50px 0px;
   background: #5d5d5d;
   border-radius: 30px;
   padding: 15px;
   box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   max-width: 940px;
+  min-height: 350px;
 }
 
 .content {
@@ -25,6 +32,7 @@
   align-items: center;
   gap: 5px;
   font-weight: 200;
+  color: #cecece;
 }
 
 .cards img {
@@ -34,6 +42,10 @@
 }
 
 @media (max-width: 40rem) {
+  .titulo {
+    margin-top: 3rem;
+  }
+
   .cards {
     width: 310px;
     margin-top: 20px;
@@ -41,5 +53,10 @@
 
   .cards img {
     max-width: 280px;
+  }
+
+  .content p,
+  a {
+    font-size: 14px;
   }
 }

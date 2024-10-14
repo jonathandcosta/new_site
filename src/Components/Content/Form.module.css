@@ -1,8 +1,7 @@
 form {
   display: block;
-  text-align: -webkit-right;
   margin-top: 15px;
-  width: 90%;
+  max-width: 90%;
   background: #5d5d5d;
   padding: 30px;
   border-radius: 30px;
@@ -24,7 +23,12 @@ textarea {
   margin-bottom: 30px;
   font-size: 16px;
   letter-spacing: 2px;
-  transition: 0.9s;
+  transition: 0.5s;
+}
+
+textarea {
+  min-height: 220px;
+  max-width: 818px;
 }
 
 input::placeholder,
@@ -49,18 +53,16 @@ button {
   font-weight: 600;
   color: #fb1;
   background: #454545;
-  padding: 12px;
+  padding: 16px;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  width: 230px;
-  transition: 0.9s;
+  width: 100%;
+  transition: 0.5s;
 }
 
 button:hover {
-  background: #474747;
-  color: #b4b4b3;
-  box-shadow: 0 0 0 1px #fff;
+  background: #707070;
 }
 
 @media (max-width: 28rem) {
@@ -74,13 +76,17 @@ button:hover {
 
   input,
   textarea {
-    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 14px;
     letter-spacing: 1px;
   }
 
+  textarea {
+    max-width: 235px;
+  }
+
   button {
     width: 100%;
-    margin-top: 15px;
+    font-size: 14px;
   }
 }

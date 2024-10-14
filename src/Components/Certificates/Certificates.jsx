@@ -1,22 +1,30 @@
 import React from 'react';
-import Check from '../../Assests/icons/check1.svg?react';
+import Open from '../../Assests/icons/open_file.svg?react';
 import Eng from '../../Assests/img/certificados/certificado_eng_front.jpg';
 import Ia from '../../Assests/img/certificados/certificado_ia.jpg';
 import Figma from '../../Assests/img/certificados/certificado_figma.jpg';
 import UiAvan from '../../Assests/img/certificados/certificado_ui_avan.jpg';
+import UxHeur from '../../Assests/img/certificados/certificado_ux_heuristic.jpg';
+import Js from '../../Assests/img/certificados/certificado_js_es6.jpg';
+import Grid from '../../Assests/img/certificados/certificado_css_grid.jpg';
+import Flex from '../../Assests/img/certificados/certificado_css_flexbox.jpg';
+import Html from '../../Assests/img/certificados/certificado_html.jpg';
 import style from '../../Components/Certificates/Certificates.module.css';
 
 const Certificates = () => {
   return (
     <section className="container">
-      <h1 className="subtitle">Frontend Development</h1>
+      <h1 className={`${'subtitle'} ${style.titulo}`}>Frontend Development</h1>
       <ul className={style.cards}>
         <div className={style.content}>
           <p className="name">Frontend Engineer</p>
           <p className="">EBAC -Escola Britanica</p>
-          <a href="https://static.lms.ebaconline.com.br/certs/course/54d1cfc9-3e75-4df2-9af7-70fc81d099b9/original.pdf?1714776467352">
+          <a
+            href="https://static.lms.ebaconline.com.br/certs/course/54d1cfc9-3e75-4df2-9af7-70fc81d099b9/original.pdf?1714776467352"
+            target="_blank"
+          >
             Issued on May 24
-            <Check />
+            <Open />
           </a>
           <p className="description">
             I am a trained Frontend Engineer with solid experience in developing
@@ -31,14 +39,101 @@ const Certificates = () => {
         <img src={Eng} alt="certificado" />
       </ul>
 
-      <h1 className="subtitle">UI and UX Design</h1>
       <ul className={style.cards}>
         <div className={style.content}>
-          <p className="name">Advanced Ui Design</p>
+          <p className="name">JavaScript ES6</p>
           <p className="">Origamid</p>
-          <a href="https://static.lms.ebaconline.com.br/certs/course/1ba56936-19a7-4fcf-8f5b-0af341c7d96c/original.pdf?1715458483635">
+          <a
+            href="https://www.origamid.com/certificate/f33788a8/"
+            target="_blank"
+          >
+            Issued on April 22
+            <Open />
+          </a>
+          <p className="description">
+            With a degree in JavaScript ES6, I acquired advanced knowledge about
+            the language's modern features, such as arrow functions,
+            destructuring, promises, modules and classes. This expertise allows
+            me to develop more efficient, clean and scalable code, improving the
+            performance and maintenance of frontend projects.
+          </p>
+        </div>
+        <img src={Js} alt="certificado" />
+      </ul>
+
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">CSS Grid Layout</p>
+          <p className="">Origamid</p>
+          <a
+            href="https://www.origamid.com/certificate/b2056e46/"
+            target="_blank"
+          >
+            Issued on April 22
+            <Open />
+          </a>
+          <p className="description">
+            With a degree in JavaScript ES6, I acquired advanced knowledge about
+            the language's modern features, such as arrow functions,
+            destructuring, promises, modules and classes. This expertise allows
+            me to develop more efficient, clean and scalable code, improving the
+            performance and maintenance of frontend projects.
+          </p>
+        </div>
+        <img src={Grid} alt="certificado" />
+      </ul>
+
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">CSS Flexbox</p>
+          <p className="">Origamid</p>
+          <a href="https://origamid.com/certificate/b60e4b74" target="_blank">
+            Issued on Jan 22
+            <Open />
+          </a>
+          <p className="description">
+            With a degree in CSS Flexbox, I learned to master flexible layout to
+            create responsive and optimized interfaces. Flexbox allows you to
+            organize and align elements efficiently, ensuring an adaptive and
+            modern design across different resolutions and devices. This skill
+            enhances the visual structuring of frontend projects, improving both
+            usability and aesthetics.
+          </p>
+        </div>
+        <img src={Flex} alt="certificado" />
+      </ul>
+
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">HTML and CSS fo Beginners</p>
+          <p className="">Origamid</p>
+          <a href="https://origamid.com/certificate/8d0b3b2a" target="_blank">
+            Issued on Jan 22
+            <Open />
+          </a>
+          <p className="description">
+            After completing the HTML and CSS for Beginners course, I acquired a
+            solid foundation in creating structures and styles for web pages. I
+            understood the fundamentals of HTML to create semantic content and
+            CSS to apply styles, ensuring that pages are visually appealing and
+            functional. This training was essential for developing
+            well-structured and responsive interfaces.
+          </p>
+        </div>
+        <img src={Html} alt="certificado" />
+      </ul>
+
+      <h1 className={`${'subtitle'} ${style.titulo}`}>UI and UX Design</h1>
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">Advanced UI Design</p>
+          <p className="">Origamid</p>
+          <a
+            href="https://www.origamid.com/certificate/73ed514f"
+            target="_blank"
+          >
             Issued on Mar 23
-            <Check />
+            <Open />
           </a>
           <p className="description">
             With this degree in Advanced UI Design, I developed skills to create
@@ -52,14 +147,36 @@ const Certificates = () => {
         <img src={UiAvan} alt="certificado" />
       </ul>
 
-      <h1 className="subtitle">Tools</h1>
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">UX Desing Heuristics</p>
+          <p className="">Origamid</p>
+          <a href="https://origamid.com/certificate/be58630a" target="_blank">
+            Issued on Mar 23
+            <Open />
+          </a>
+          <p className="description">
+            I learned how to apply usability principles to improve the user
+            experience in digital interfaces. Using heuristics such as feedback,
+            consistency and control, I developed solutions that facilitate
+            navigation, optimize interaction and ensure that the user has an
+            efficient and intuitive experience.
+          </p>
+        </div>
+        <img src={UxHeur} alt="certificado" />
+      </ul>
+
+      <h1 className={`${'subtitle'} ${style.titulo}`}>Tools</h1>
       <ul className={style.cards}>
         <div className={style.content}>
           <p className="name">Artificial Intelligence</p>
           <p className="">EBAC -Escola Britanica</p>
-          <a href="https://static.lms.ebaconline.com.br/certs/course/1ba56936-19a7-4fcf-8f5b-0af341c7d96c/original.pdf?1715458483635">
+          <a
+            href="https://static.lms.ebaconline.com.br/certs/course/1ba56936-19a7-4fcf-8f5b-0af341c7d96c/original.pdf?1715458483635"
+            target="_blank"
+          >
             Issued on May 24
-            <Check />
+            <Open />
           </a>
           <p className="description">
             With a degree in Artificial Intelligence, I developed skills to
@@ -78,9 +195,12 @@ const Certificates = () => {
         <div className={style.content}>
           <p className="name">FIGMA</p>
           <p className="">EBAC -Escola Britanica</p>
-          <a href="https://static.lms.ebaconline.com.br/certs/e18d598e-b516-4be3-94f6-ccf11d4e929b.pdf">
+          <a
+            href="https://static.lms.ebaconline.com.br/certs/e18d598e-b516-4be3-94f6-ccf11d4e929b.pdf"
+            target="_blank"
+          >
             Issued on Nov 22
-            <Check />
+            <Open />
           </a>
           <p className="description">
             I have a degree in Figma, an essential tool for collaborative design
