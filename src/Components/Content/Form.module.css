@@ -1,7 +1,8 @@
 form {
   display: block;
-  margin-top: 15px;
-  max-width: 90%;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  max-width: 95%;
   background: #5d5d5d;
   padding: 30px;
   border-radius: 30px;
@@ -28,12 +29,12 @@ textarea {
 
 textarea {
   min-height: 220px;
-  max-width: 818px;
 }
 
 input::placeholder,
 textarea::placeholder {
   color: #dfdfdf;
+  letter-spacing: 2px;
 }
 
 input:focus,
@@ -66,23 +67,24 @@ button:hover {
 }
 
 @media (max-width: 28rem) {
-  form {
-    width: 95%;
-  }
-
   .namesForm {
     display: block;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 12px;
   }
 
   input,
   textarea {
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
 
   textarea {
-    max-width: 235px;
+    max-width: 250px;
   }
 
   button {

@@ -47,7 +47,7 @@ function Card() {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">Birthday</h4>
-                <p className="aux">May 28, 1985</p>
+                <p className="aux">May 28</p>
               </div>
             </div>
             <div className={style.infos}>
@@ -56,7 +56,7 @@ function Card() {
               </div>
               <div className={style.infos_name}>
                 <h4 className="name">Location</h4>
-                <p className="aux">Natal, Brasil</p>
+                <p className="aux">Brasil</p>
               </div>
             </div>
           </div>
