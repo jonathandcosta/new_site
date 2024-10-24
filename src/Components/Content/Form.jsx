@@ -33,7 +33,6 @@ const Form = () => {
           setNome('');
           setEmail('');
           setMensagem('');
-          alert('Sent successfully!');
         },
         (err) => {
           console.log('Unexpected Error, please submit again.', err);

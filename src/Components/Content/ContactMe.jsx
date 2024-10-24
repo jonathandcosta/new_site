@@ -35,12 +35,14 @@ const ContactMe = () => {
           seamlessly and securely.
         </p>
       </div>
-      <p className={style.finaly}>
-        If you need a professional who combines strategic vision, advanced
-        technical skills and a focus on results, or are looking for specialized
-        consulting for e-commerce, get in touch. Let's develop solutions
-        together that will take your business to the next level!
-      </p>
+      <div>
+        <p className={style.finaly}>
+          If you need a professional who combines strategic vision, advanced
+          technical skills and a focus on results, or are looking for
+          specialized consulting for e-commerce, get in touch. Let's develop
+          solutions together that will take your business to the next level!
+        </p>
+      </div>
     </section>
   );
 };

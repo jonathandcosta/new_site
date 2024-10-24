@@ -22,13 +22,18 @@ textarea {
   background: #545454;
   padding: 1rem;
   margin-bottom: 30px;
-  font-size: 16px;
-  letter-spacing: 2px;
   transition: 0.5s;
 }
 
+input {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
 textarea {
-  min-height: 220px;
+  font-size: 20px;
+  resize: none;
+  min-height: 320px;
 }
 
 input::placeholder,
