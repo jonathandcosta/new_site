@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../Content/Form.module.css';
+import Check from '../../Assests/icons/check.svg?react';
 import Send from '../../Assests/icons/send.svg?react';
 import emailjs from '@emailjs/browser';
 
@@ -48,7 +49,7 @@ const Form = () => {
         </p>
         <div className={style.card}>
           <p className={style.titulo}>
-            ✔ Do you want a leader for your e-commerce?
+            <Check /> Do you want a leader for your e-commerce?
           </p>
           <p className={style.description1}>
             I transform your e-commerce with leading performance and
@@ -63,7 +64,7 @@ const Form = () => {
         </div>
         <div className={style.card}>
           <p className={style.titulo}>
-            ✔ Do you need a Frontend developer for your project?
+            <Check /> Do you need a Frontend developer for your project?
           </p>
           <p className={style.description1}>
             I am specialized in developing front-end, creating and integrating

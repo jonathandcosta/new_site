@@ -3,6 +3,8 @@
   border-radius: 28px;
 }
 .titulo {
+  display: flex;
+  align-items: center;
   font-size: 20px;
   margin-top: 26px;
   font-weight: 400;
@@ -25,9 +27,8 @@
   padding: 15px;
   border-radius: 16px;
   color: #57ad2c;
-  font-family: cursive;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   cursor: pointer;
 }
