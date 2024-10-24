@@ -5,13 +5,20 @@
 .titulo {
   display: flex;
   align-items: center;
+  gap: 5px;
   font-size: 20px;
   margin-top: 26px;
   font-weight: 400;
 }
 
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .description1 {
-  margin-left: 21px;
+  margin-left: 30px;
+  margin-top: 10px;
   font-size: 16px;
   font-weight: 300;
   color: #acacac;
@@ -54,6 +61,11 @@
 }
 
 @media (max-width: 28rem) {
+  .subtitle {
+    font-size: 15px;
+    width: 320px;
+  }
+
   .description1 {
     font-size: 14px;
     max-width: 275px;
@@ -155,6 +167,7 @@ button:hover {
     margin-bottom: 15px;
     font-size: 12px;
     letter-spacing: 1px;
+    padding: 14px;
   }
 
   textarea {

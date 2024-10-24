@@ -44,7 +44,7 @@ const Form = () => {
   return (
     <>
       <section className="container">
-        <p className="subtitle">
+        <p className={style.subtitle}>
           Your search for a qualified professional ends here!
         </p>
         <div className={style.card}>
@@ -87,8 +87,10 @@ const Form = () => {
         </div>
       </section>
       <section className="container">
-        <p className="subtitle">Want customized solutions?</p>
-        <p className="description">Let me know your contact and project!</p>
+        <p className={style.subtitle}>Want customized solutions?</p>
+        <p className={style.description1}>
+          Let me know your contact and project!
+        </p>
         <form onSubmit={sendEmail}>
           <div className={style.namesForm}>
             <input
