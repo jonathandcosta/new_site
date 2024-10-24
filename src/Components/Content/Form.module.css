@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 28rem) {
+  .titulo {
+    align-items: flex-start;
+  }
+
   .subtitle {
     font-size: 15px;
     width: 320px;
