@@ -88,6 +88,11 @@ form {
   padding: 30px;
   border-radius: 30px;
   box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
+  cursor: pointer;
+}
+
+form:hover {
+  box-shadow: 2px 2px 7px 1px #fff;
 }
 
 .namesForm {
