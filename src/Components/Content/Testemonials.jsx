@@ -20,10 +20,10 @@ const Testemonials = () => {
           <div className={style.box}>
             <p className="name">Monaliza Dantas</p>
             <p className="description">
-              Un excelente líder e chefe. Sempre buscando maneiras de melhorar o
-              rendimento da equipe e de que tudo seja feito de maneira eficaz.
-              Super honesto e disposto a ajudar a todos, seja no ambiente de
-              trabalho e na vida social.
+              An excellent leader and boss. Always looking for ways to improve
+              the team's performance and ensure that everything is done
+              efficiently. Super honest and willing to help everyone, both at
+              work and in social life.
             </p>
           </div>
         </div>
@@ -34,9 +34,9 @@ const Testemonials = () => {
           <div className={style.box}>
             <p className="name">Leandro Domingos</p>
             <p className="description">
-              Excelente profissional e um dos mais gabaritados líderes em que já
-              trabalhei. ético, Comprometido e motivador e principalmente focado
-              em resultados de alta performance.
+              Excellent professional and one of the most qualified leaders I
+              have ever worked with. Ethical, committed and motivating, and
+              mainly focused on high-performance results.
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@ const Testemonials = () => {
           <div className={style.box}>
             <p className="name">Moroni Macedo</p>
             <p className="description">
-              Profissional muito dedicado e esforçado em suas ações e nos
-              estudos em sua área de atuação. Com dedicação, aprende e aplica
-              novas habilidades com eficiência e constância.
+              A very dedicated and hard-working professional in his actions and
+              studies in his field. With dedication, he learns and applies new
+              skills efficiently and consistently.
             </p>
           </div>
         </div>
@@ -61,9 +61,9 @@ const Testemonials = () => {
           <div className={style.box}>
             <p className="name">Alvaro Jr.</p>
             <p className="description">
-              Jonathan é um profissional extremamente dedicado e busca seus
-              objetivos com muito empenho. Qualquer empresa/projeto terá sorte
-              de tê-lo em seu time.
+              Jonathan is an extremely dedicated professional who pursues his
+              goals with great dedication. Any company/project will be lucky to
+              have him on their team.
             </p>
           </div>
         </div>

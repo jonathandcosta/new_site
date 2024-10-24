@@ -27,6 +27,7 @@
   color: #57ad2c;
   font-family: cursive;
   font-style: italic;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
 }
@@ -39,6 +40,7 @@
 @media (max-width: 75rem) {
   .titulo {
     font-size: 16px;
+    margin-top: 15px;
   }
 
   .description1 {
