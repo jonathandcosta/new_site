@@ -1,7 +1,7 @@
 import React from 'react';
-import style from '../Content/ContactMe.module.css';
+import style from '../Contact/Contact_Pit.module.css';
 
-const ContactMe = () => {
+const ContactPit = () => {
   return (
     <section className="container">
       <p className="subtitle">
@@ -47,4 +47,4 @@ const ContactMe = () => {
   );
 };
 
-export default ContactMe;
+export default ContactPit;
