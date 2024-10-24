@@ -169,6 +169,12 @@ a {
 
   .title {
     margin: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .title::after {
+    width: 3rem;
+    top: 32px;
   }
 
   .text {
@@ -178,5 +184,13 @@ a {
 
   .name {
     margin-top: 10px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
   }
 }
