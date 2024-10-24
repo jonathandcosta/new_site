@@ -88,6 +88,7 @@
   opacity: 0.2;
   cursor: pointer;
   transition: 0.9s ease transform;
+  width: 30px;
 }
 
 .midias img:hover {
