@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Doing.module.css';
+import style from '../Doing/style.module.css';
 import Cabeca from '../../Assests/icons/web.svg?react';
 import School from '../../Assests/icons/school.svg?react';
 import Language from '../../Assests/icons/language.svg?react';

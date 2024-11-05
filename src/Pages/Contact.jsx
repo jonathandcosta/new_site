@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Projects from '../Content/Projects';
+import Header from '../Components/Header/Header';
+import Form from '../Content/Form/Form';
 
-const Portifolio = () => {
+const Contact = () => {
   return (
     <section className="anime">
       <div className="border_page">
         <Header />
-        <Projects />
+        <Form />
       </div>
     </section>
   );
 };
 
-export default Portifolio;
+export default Contact;

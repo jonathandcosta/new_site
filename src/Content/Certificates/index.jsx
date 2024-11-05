@@ -9,7 +9,7 @@ import Js from '../../Assests/img/certificados/certificado_js_es6.jpg';
 import Grid from '../../Assests/img/certificados/certificado_css_grid.jpg';
 import Flex from '../../Assests/img/certificados/certificado_css_flexbox.jpg';
 import Html from '../../Assests/img/certificados/certificado_html.jpg';
-import style from '../../Components/Certificates/Certificates.module.css';
+import style from '../../Content/Certificates/style.module.css';
 
 const Certificates = () => {
   return (

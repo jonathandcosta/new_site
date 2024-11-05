@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Certificates from '../Certificates/Certificates';
+import Header from '../Components/Header/Header';
+import Certificates from '../Content/Certificates';
 
 const Certficates = () => {
   return (

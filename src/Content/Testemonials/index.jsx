@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Testemonials.module.css';
+import style from '../Testemonials/style.module.css';
 import allan from '../../Assests/img/allan.png';
 import moroni from '../../Assests/img/moroni.png';
 import alvaro from '../../Assests/img/alvaro.png';

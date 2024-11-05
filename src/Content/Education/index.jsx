@@ -1,6 +1,6 @@
 import React from 'react';
 import Educa from '../../Assests/icons/education.svg?react';
-import style from '../Content/Education.module.css';
+import style from '../Education/style.module.css';
 
 const Education = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css';
+import style from '../Projects/style.module.css';
 import bikcraft from '../../Assests/projetos/bikcraft.png';
 import beautySalon from '../../Assests/projetos/beautysalon.png';
 import fineze from '../../Assests/projetos/fineze.png';

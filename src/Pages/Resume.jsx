@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../Components/Header/Header';
 import Education from '../Content/Education';
 import Experience from '../Content/Experience';
 import SoftSkills from '../Content/SoftSkills';

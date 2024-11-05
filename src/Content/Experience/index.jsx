@@ -1,6 +1,6 @@
 import React from 'react';
 import Experi from '../../Assests/icons/book.svg?react';
-import style from '../Content/Experience.module.css';
+import style from '../Experience/style.module.css';
 
 const Experience = () => {
   return (

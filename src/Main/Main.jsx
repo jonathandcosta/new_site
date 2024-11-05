@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../Card/Card';
+import Card from '../Components/Card/Card';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from '../Pages/About';
 import Resume from '../Pages/Resume';
@@ -19,6 +19,7 @@ const Main = () => {
           <Route path="/portifolio" element={<Portifolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/certificates" element={<Certificates />} />
+          <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
       </BrowserRouter>
     </div>

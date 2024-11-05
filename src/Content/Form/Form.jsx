@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../Content/Form.module.css';
+import style from './style.module.css';
 import Check from '../../Assests/icons/check.svg?react';
 import Send from '../../Assests/icons/send.svg?react';
 import emailjs from '@emailjs/browser';

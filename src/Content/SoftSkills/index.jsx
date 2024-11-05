@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './SoftSkills.module.css';
+import style from './style.module.css';
 
 const SoftSkills = () => {
   return (
