@@ -1,12 +1,12 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin: 2rem 4rem 0px 2rem;
   gap: 20px;
 }
 .card {
   background: #535252;
-  width: 29.5rem;
+  width: 26.5rem;
   border-radius: 25px;
   display: flex;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
