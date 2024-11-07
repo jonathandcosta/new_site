@@ -65,12 +65,12 @@ a {
 }
 
 .aux {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   color: #cecece;
   margin-right: 10px;
   text-align: start;
-  white-space: normal;
+  letter-spacing: 1px;
 }
 
 .subtitle {
@@ -148,9 +148,9 @@ a {
 
 @media (max-width: 40rem) {
   .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .border_page {
