@@ -13,10 +13,10 @@
   content: '';
   position: absolute;
   width: 1px;
-  height: 69%;
+  height: 67%;
   background: #737373;
   margin: -38px;
-  top: 30px;
+  top: 46px;
 }
 
 .box ul li {
@@ -54,15 +54,21 @@
   .align {
     width: 240px;
     font-size: 14px;
+    margin-bottom: 2rem;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
   }
 
   .box::before {
-    height: 67.7%;
+    height: 70%;
   }
 }
 
 @media (max-width: 28rem) {
   .box::before {
-    top: 25px;
+    top: 60px;
   }
 }

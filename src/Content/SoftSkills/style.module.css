@@ -41,10 +41,9 @@
 
 /* -----------REVERSE----------- */
 .reverse {
-  padding: 10px;
+  padding: 10px 0px 25px 0px;
   margin-bottom: 2rem;
   overflow: hidden;
-  /* mask: linear-gradient(10deg, transparent, #e9cb26, #e9cb26, transparent); */
   white-space: nowrap;
 }
 

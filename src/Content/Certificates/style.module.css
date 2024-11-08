@@ -63,5 +63,9 @@
   .content p,
   a {
     font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
   }
 }

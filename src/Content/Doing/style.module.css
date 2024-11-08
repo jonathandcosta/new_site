@@ -13,7 +13,7 @@
 }
 
 .icon {
-  margin: 15px;
+  margin: 20px;
 }
 
 @media (max-width: 75rem) {
@@ -23,6 +23,10 @@
 }
 
 @media (max-width: 28rem) {
+  .cards {
+    margin: 2rem 2rem 0px 1rem;
+  }
+
   .card {
     width: 19rem;
   }

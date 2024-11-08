@@ -17,8 +17,7 @@ const Doing = () => {
           <div>
             <p className="name">Web Developer</p>
             <p className="description">
-              I create impactful digital experiences through the development of
-              responsive websites.
+              I create impactful digital experiences through development.
             </p>
           </div>
         </div>

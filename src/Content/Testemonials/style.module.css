@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: row;
   overflow-y: auto;
-  padding: 16px 24px;
+  scroll-behavior: smooth;
+  padding: 20px 35px 50px 16px;
   white-space: nowrap;
   max-width: 1070px;
   mask: linear-gradient(to right, transparent, red 5%, red 95%, transparent);
 }
 
 .cards::-webkit-scrollbar {
-  width: 15px;
-  height: 10px;
+  display: none;
 }
 
 .cards::-webkit-scrollbar-track {
@@ -62,6 +62,7 @@
 @media (max-width: 28rem) {
   .cards {
     max-width: 330px;
+    padding: 16px 20px 50px 10px;
   }
 
   .card {
