@@ -3,61 +3,60 @@ import style from './style.module.css';
 
 const data = [
   {
-    pergunta: 'O que você faz?',
+    pergunta: 'What do you do?',
     resposta:
-      'Sou um desenvolvedor frontend,  sou responsável por criar e implementar a interface de sites e aplicativos, garantindo que os usuários possam interagir com as páginas de forma eficaz e intuitiva.',
+      'I am a frontend developer, I am responsible for creating and implementing the interface of websites and applications, ensuring that users can interact with the pages effectively and intuitively.',
+  },
+  {
+    pergunta: 'What are the main technologies you use in the frontend?',
+    resposta:
+      'Core technologies include HTML, CSS, JavaScript, as well as frameworks like ReactJS, VueJS and libraries like jQuery, Tailwind CSS, and preprocessors like SASS and LESS.',
+  },
+  {
+    pergunta: 'As a frontend developer, do you make websites?',
+    resposta:
+      'Yes, but my work goes far beyond that. My work involves creating modern, functional and responsive interfaces for websites and web applications, using technologies such as HTML, CSS and JavaScript. I also work with frameworks and libraries such as ReactJS, VueJS and many other tools to ensure the user has the best possible experience. In addition to coding, I also collaborate with designers, UX/UI and other teams to implement dynamic layouts, API integrations, performance improvements and ensuring that the website is accessible and optimized for different devices and browsers.',
+  },
+  {
+    pergunta: 'What is the role of the frontend in website performance?',
+    resposta:
+      'The frontend developer optimizes the user experience by improving website performance, reducing loading time, implementing responsive design and adopting SEO techniques.',
+  },
+  {
+    pergunta: 'How much does it cost to make a website?',
+    resposta:
+      'The cost of developing a website can vary greatly, depending on factors such as the type of website, its complexity, and the features required. For example, simple websites with static pages have a lower cost, while more robust projects, such as e-commerce sites, portals with complex integrations, or customized features, tend to be more expensive.',
+  },
+  {
+    pergunta: 'What does responsive design mean?',
+    resposta:
+      'Responsive design refers to the ability of a website or application to adapt to different devices and screen sizes, such as mobile phones, tablets, and desktops, providing a consistent user experience.',
+  },
+  {
+    pergunta: 'What is the difference between frontend and backend?',
+    resposta:
+      'The frontend handles the visible, interactive part of the website or application, while the backend manages the server, database, and business logic that runs behind the scenes.',
   },
   {
     pergunta:
-      'Quais são as principais tecnologias que você utiliza no frontend?',
+      'As a front end developer, do you have knowledge of UX/UI techniques?',
     resposta:
-      'As principais tecnologias incluem HTML, CSS, JavaScript, além de frameworks como ReactJS, VueJS e bibliotecas como jQuery, Tailwind CSS e pré-processadores como SASS e LESS.',
+      'Yes, having knowledge in UX/UI helps the frontend developer to create more user-friendly and efficient interfaces, improving the user experience on the website or application.',
   },
   {
-    pergunta: 'Como desenvolvedor frontend, vc faz sites ?',
+    pergunta: 'What are the main challenges of a frontend developer?',
     resposta:
-      'Sim, porém o meu trabalho vai muito além disso. Minha atuação envolve criar interfaces modernas, funcionais e responsivas para sites e aplicações web, utilizando tecnologias como HTML, CSS e JavaScript. Também trabalho com frameworks e bibliotecas como ReactJS, VueJS e muitas outras ferramentas para garantir que o usuário tenha a melhor experiência possível. Além de codificar, também colaboro com designers, UX/UI e outras equipes para implementar layouts dinâmicos, integrações com APIs, melhorias na performance e a garantia de que o site seja acessível e otimizado para diferentes dispositivos e navegadores. ',
+      'Key challenges include ensuring cross-browser compatibility, maintaining optimal interface performance, working with APIs, and developing accessible and scalable code.',
   },
   {
-    pergunta: 'Qual é o papel do frontend no desempenho do site?',
+    pergunta: 'Do you perform code tests on the frontend before delivery?',
     resposta:
-      'O desenvolvedor frontend otimiza a experiência do usuário melhorando a performance do site, diminuindo o tempo de carregamento, implementando design responsivo e adotando técnicas para SEO.',
+      'Frontend testing, such as unit testing with tools like Jest or Cypress, helps ensure that interface components and functionality work correctly and prevent future bugs.',
   },
   {
-    pergunta: 'Quanto custa pra fazer um site?',
+    pergunta: 'How does the frontend integrate with APIs?',
     resposta:
-      'O custo para desenvolver um site pode variar bastante, dependendo de fatores como o tipo de site, sua complexidade e as funcionalidades necessárias. Por exemplo, sites simples com páginas estáticas têm um custo menor, enquanto projetos mais robustos, como e-commerces, portais com integrações complexas ou funcionalidades customizadas, tendem a ser mais caros.',
-  },
-  {
-    pergunta: 'O que significa design responsivo?',
-    resposta:
-      'Design responsivo refere-se à capacidade do site ou aplicativo de se adaptar a diferentes dispositivos e tamanhos de tela, como celulares, tablets e desktops, oferecendo uma experiência consistente ao usuário.',
-  },
-  {
-    pergunta: 'Qual a diferença entre frontend e backend?',
-    resposta:
-      'O frontend lida com a parte visível e interativa do site ou aplicativo, enquanto o backend gerencia o servidor, banco de dados e lógica de negócios que rodam por trás das cenas.',
-  },
-  {
-    pergunta:
-      'Como desenvolvedor frontend, você cohecimento sobre as tecnicas de UX/UI?',
-    resposta:
-      'Sim, ter conhecimentos em UX/UI ajuda o desenvolvedor frontend a criar interfaces mais amigáveis e eficientes, melhorando a experiência do usuário no site ou aplicativo.',
-  },
-  {
-    pergunta: 'Quais são os principais desafios de um desenvolvedor frontend?',
-    resposta:
-      'Os principais desafios incluem garantir a compatibilidade entre navegadores, manter o desempenho ideal da interface, trabalhar com APIs e desenvolver código acessível e escalável.',
-  },
-  {
-    pergunta: 'Antes da entrega você realiza testes de código no frontend?',
-    resposta:
-      'Testes no frontend, como testes unitários com ferramentas como Jest ou Cypress, ajudam a garantir que os componentes e funcionalidades da interface funcionem corretamente e evitem bugs futuros.',
-  },
-  {
-    pergunta: 'Como o frontend se integra com APIs?',
-    resposta:
-      'O desenvolvedor frontend usa chamadas de API para se conectar com dados do backend ou de serviços de terceiros, manipulando esses dados e exibindo-os na interface para os usuários.',
+      'The frontend developer uses API calls to connect with data from the backend or third-party services, manipulating that data and displaying it in the interface for users.',
   },
 ];
 
@@ -74,7 +73,7 @@ const Questions = () => {
 
   return (
     <section className="container">
-      <div className={style.subtitle}>Perguntas frequentes</div>
+      <div className={style.subtitle}>Frequently Asked Questions</div>
       <div className={style.accordion}>
         {data.map((item, i) => (
           <div className={style.item}>
