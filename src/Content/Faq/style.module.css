@@ -1,3 +1,16 @@
+.card {
+  padding: 5px;
+  border-radius: 28px;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  margin-top: 26px;
+  font-weight: 400;
+}
+
 .subtitle {
   font-size: 1.25rem;
   font-weight: bold;
@@ -12,13 +25,46 @@
   max-width: 900px;
 }
 
+.finaly {
+  max-width: 930px;
+  font-size: 20px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
+  padding: 15px;
+  border-radius: 16px;
+  color: #57ad2c;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+}
+
+.finaly:hover {
+  transition: 0.9s;
+  box-shadow: 1px 1px 2px 3px #c88e00;
+}
+
 @media (max-width: 75rem) {
+  .titulo {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
   .description1 {
     max-width: 420px;
+  }
+
+  .finaly {
+    max-width: 445px;
   }
 }
 
 @media (max-width: 28rem) {
+  .titulo {
+    align-items: flex-start;
+  }
+
   .subtitle {
     font-size: 15px;
     width: 320px;
@@ -28,6 +74,13 @@
     font-size: 14px;
     max-width: 275px;
   }
+
+  .finaly {
+    max-width: 310px;
+    font-size: 14px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 }
 
 form {
@@ -35,11 +88,15 @@ form {
   margin-top: 32px;
   margin-bottom: 50px;
   max-width: 95%;
-  background: #5d5d;
+  background: #5d5d5d;
   padding: 30px;
   border-radius: 30px;
   box-shadow: 2px 2px 7px 1px rgba(1, 1, 1, 1.2);
   cursor: pointer;
+}
+
+form:hover {
+  box-shadow: 2px 2px 7px 1px #fff;
 }
 
 .namesForm {
