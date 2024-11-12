@@ -14,7 +14,7 @@ const Main = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="about" element={<About />} />
+          {/* <Route path="about" element={<About />} /> */}
           <Route path="resume" element={<Resume />} />
           <Route path="portifolio" element={<Portifolio />} />
           <Route path="contact" element={<Contact />} />
