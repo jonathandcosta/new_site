@@ -80,7 +80,7 @@ a {
 
 .text {
   margin: 1rem 5rem 0px 5rem;
-  max-width: 61rem;
+  max-width: 55rem;
 }
 
 .text p {
@@ -103,6 +103,7 @@ a {
   margin-bottom: 20px;
   text-align: start;
   white-space: normal;
+  max-width: 800px;
 }
 
 .header {
