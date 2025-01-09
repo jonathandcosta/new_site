@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Card.module.css';
-import avatar from '../../Assests/img/avatar.png';
+import avatar from '../../Assests/img/person/avatar.png';
 import Email from '../../Assests/icons/email.svg?react';
 import Phone from '../../Assests/icons/phone.svg?react';
 import Birthday from '../../Assests/icons/calendar.svg?react';

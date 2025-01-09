@@ -9,12 +9,37 @@ import Js from '../../Assests/img/certificados/certificado_js_es6.jpg';
 import Grid from '../../Assests/img/certificados/certificado_css_grid.jpg';
 import Flex from '../../Assests/img/certificados/certificado_css_flexbox.jpg';
 import Html from '../../Assests/img/certificados/certificado_html.jpg';
+import ReactJs from '../../Assests/img/certificados/certificado_react.jpg';
 import style from '../../Content/Certificates/style.module.css';
 
 const Certificates = () => {
   return (
     <section className="container">
       <h1 className={`${'subtitle'} ${style.titulo}`}>Frontend Development</h1>
+
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">ReactJS</p>
+          <p className="">Origamid</p>
+          <a
+            href="https://www.origamid.com/certificate/bc892580"
+            target="_blank"
+          >
+            Issued on Jan 25
+            <Open />
+          </a>
+          <p className="description">
+            I completed a 36-hour ReactJS course, where I acquired fundamental
+            and advanced skills for developing interactive and dynamic
+            interfaces. In the final project, I created a social network for
+            dogs, applying concepts such as state management with Hooks and
+            integration with APIs, demonstrating the ability to develop modern
+            and scalable applications.
+          </p>
+        </div>
+        <img src={ReactJs} alt="certificado" />
+      </ul>
+
       <ul className={style.cards}>
         <div className={style.content}>
           <p className="name">Frontend Engineer</p>
