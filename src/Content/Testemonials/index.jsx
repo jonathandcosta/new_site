@@ -1,10 +1,10 @@
 import React from 'react';
 import style from '../Testemonials/style.module.css';
-import allan from '../../Assests/img/allan.png';
-import moroni from '../../Assests/img/moroni.png';
-import alvaro from '../../Assests/img/alvaro.png';
-import monaliza from '../../Assests/img/monaliza.png';
-import leandro from '../../Assests/img/leandro.png';
+import allan from '../../Assests/img/person/allan.png';
+import moroni from '../../Assests/img/person/moroni.png';
+import alvaro from '../../Assests/img/person/alvaro.png';
+import monaliza from '../../Assests/img/person/monaliza.png';
+import leandro from '../../Assests/img/person/leandro.png';
 
 const Testemonials = () => {
   return (

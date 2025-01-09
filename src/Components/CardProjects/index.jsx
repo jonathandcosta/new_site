@@ -1,14 +1,15 @@
 import React from 'react';
 import style from '../CardProjects/style.module.css';
 
-import bikcraft from '../../Assests/projetos/bikcraft.png';
-import beautySalon from '../../Assests/projetos/beautysalon.png';
-import fineze from '../../Assests/projetos/fineze.png';
-import efood from '../../Assests/projetos/efood.png';
-import menu from '../../Assests/projetos/menu.png';
-import style_salão from '../../Assests/projetos/style_salão.png';
-import eplay from '../../Assests/projetos/eplay.png';
-import pass from '../../Assests/projetos/pass.png';
+import bikcraft from '../../Assests/img/projetos/bikcraft.png';
+import beautySalon from '../../Assests/img/projetos/beautysalon.png';
+import fineze from '../../Assests/img/projetos/fineze.png';
+import efood from '../../Assests/img/projetos/efood.png';
+import dogs from '../../Assests/img/projetos/dogs.jpg';
+import menu from '../../Assests/img/projetos/menu.png';
+import style_salão from '../../Assests/img/projetos/style_salão.png';
+import eplay from '../../Assests/img/projetos/eplay.png';
+import pass from '../../Assests/img/projetos/pass.png';
 import Visu from '../../Assests/icons/visualizacao.svg';
 
 const CardProjects = () => {
@@ -583,13 +584,85 @@ const CardProjects = () => {
             </span>
           </div>
         </div>
-      </div>
-      <div>
-        <p>Outros projetos</p>
+
         <div>
-          <p>
-            Nome: <span>Bikcraft</span>
-          </p>
+          <div className={style.card}>
+            <img
+              className={style.image}
+              src={dogs}
+              alt="projeto Restaurantes Efood"
+            />
+            <div className={style.overlay}>
+              <div className={style.overlayName}>
+                <a href="https://react-dogs-ten.vercel.app/" target="_blank">
+                  Dogs
+                </a>
+                <span>
+                  <img src={Visu} alt="" />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className={style.subTitles}>
+            <span className="name">Social Midia For Dogs</span>
+            <span className={style.description}>Web Development</span>
+            <span className={style.icon}>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                height="20"
+                alt="figma logo"
+                title="figma logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                height="20"
+                alt="html5 logo"
+                title="html5 logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                height="20"
+                alt="css3 logo"
+                title="css3 logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                height="20"
+                alt="react logo"
+                title="react logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                height="20"
+                alt="typescript logo"
+                title="typescript logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+                height="20"
+                alt="redux logo"
+                title="redux logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg"
+                height="20"
+                alt="eslint logo"
+                title="eslint logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                height="20"
+                alt="git logo"
+                title="git logo"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                height="20"
+                alt="github logo"
+                title="github logo"
+              />
+            </span>
+          </div>
         </div>
       </div>
     </section>
