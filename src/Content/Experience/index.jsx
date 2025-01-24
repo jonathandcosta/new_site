@@ -38,7 +38,7 @@ const Experience = () => {
           <li>
             <p className="name">Frontend Development Assistant - VTEX</p>
             <p className={style.date}>Comercial Maranguape</p>
-            <p className={style.date}>out de 2022- mar de 2024</p>
+            <p className={style.date}>out de 2022- mai de 2023</p>
             <p className={`${style.align} description`}>
               I started as a development assistant, but due to my experience in
               leading strategic projects, I led the implementation of PIX and
