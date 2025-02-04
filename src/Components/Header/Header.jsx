@@ -11,21 +11,23 @@ const Header = () => {
     switch (pathname) {
       case '/':
         setTitle('About');
+        document.title = 'JDC | About';
         break;
       case '/resume':
         setTitle('Resume');
+        document.title = 'JDC | Resume';
         break;
       case '/portifolio':
-        setTitle('Portifólio');
-        break;
-      case '/blog':
-        setTitle('Blog');
+        setTitle('Portifolio');
+        document.title = 'JDC | Portifolio';
         break;
       case '/contact':
         setTitle('Contact');
+        document.title = 'JDC | Contact';
         break;
       case '/certificates':
         setTitle('Certificates');
+        document.title = 'JDC | Certificates';
         break;
     }
   }, [location]);

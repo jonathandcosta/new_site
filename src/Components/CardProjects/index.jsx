@@ -31,9 +31,6 @@ const CardProjects = () => {
                 >
                   Bikcraft
                 </a>
-                <span>
-                  <img src={Visu} alt="" />
-                </span>
               </div>
             </div>
           </div>
