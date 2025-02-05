@@ -10,12 +10,36 @@ import Grid from '../../Assests/img/certificados/certificado_css_grid.jpg';
 import Flex from '../../Assests/img/certificados/certificado_css_flexbox.jpg';
 import Html from '../../Assests/img/certificados/certificado_html.jpg';
 import ReactJs from '../../Assests/img/certificados/certificado_react.jpg';
+import Reactypescript from '../../Assests/img/certificados/certificado_react_typescript.jpg';
 import style from '../../Content/Certificates/style.module.css';
 
 const Certificates = () => {
   return (
     <section className="container">
       <h1 className={`${'subtitle'} ${style.titulo}`}>Frontend Development</h1>
+
+      <ul className={style.cards}>
+        <div className={style.content}>
+          <p className="name">ReactJS with TypeScript</p>
+          <p className="">Origamid</p>
+          <a
+            href="https://www.origamid.com/certificate/d2fb2514"
+            target="_blank"
+          >
+            Issued on Fev 25
+            <Open />
+          </a>
+          <p className="description">
+            I completed an intensive 10-hour course in ReactJS, where I acquired
+            fundamental skills to work with React and TypeScript, mastering the
+            main Hooks such as useState, useContext and useEffect. During the
+            course, I learned how to develop interactive and dynamic interfaces,
+            and in the final project I created a Fintech application that
+            consumes sales data from an API.
+          </p>
+        </div>
+        <img src={Reactypescript} alt="certificado" />
+      </ul>
 
       <ul className={style.cards}>
         <div className={style.content}>
