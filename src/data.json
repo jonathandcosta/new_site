@@ -4,12 +4,13 @@
     "title": "Fintech",
     "link": "https://analitic-sales.vercel.app/",
     "image": "/projetos/fintech.jpg",
-    "description": "Web Development",
+    "description": "LandPage Development",
     "technologies": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
@@ -27,6 +28,7 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gulp/gulp-plain.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grunt/grunt-original.svg",
@@ -46,6 +48,7 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
@@ -57,14 +60,15 @@
     "title": "EFood",
     "link": "https://react-ecommerce-efood.vercel.app/",
     "image": "/projetos/efood.png",
-    "description": "Restaurant Development",
+    "description": "E-commerce Development",
     "technologies": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
@@ -103,7 +107,7 @@
     "title": "E-menu",
     "link": "https://e-menu-mu.vercel.app/",
     "image": "/projetos/menu.png",
-    "description": "Delivery Development",
+    "description": "Store Development",
     "technologies": [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
@@ -150,6 +154,181 @@
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Sports",
+    "link": "https://react-sports-redux.vercel.app/",
+    "image": "/projetos/sports.jpg",
+    "description": "Store Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Shoes",
+    "link": "https://jdc-shoes.vercel.app/",
+    "image": "/projetos/shoes.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Motors",
+    "link": "https://jmotors.vercel.app/",
+    "image": "/projetos/motors.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Nature",
+    "link": "https://site-nature.vercel.app/",
+    "image": "/projetos/nature.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Wildbeast",
+    "link": "https://wildbeast-sepia.vercel.app/",
+    "image": "/projetos/wildbeast.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Jobs",
+    "link": "https://react-js-base-css-in-js.vercel.app/",
+    "image": "/projetos/jobs.jpg",
+    "description": "Store Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Github",
+    "link": "https://react-github-pi.vercel.app/",
+    "image": "/projetos/github.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Bingo",
+    "link": "https://bingojdc.vercel.app/",
+    "image": "/projetos/sort.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/less/less-plain-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grunt/grunt-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Life Heros",
+    "link": "https://projeto-bootstrap.vercel.app/",
+    "image": "/projetos/life.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "CardPay",
+    "link": "https://explorer-lab-01-eta.vercel.app/",
+    "image": "/projetos/pay.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Niver",
+    "link": "https://niver-jdc-parcel.vercel.app/",
+    "image": "/projetos/niver.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Cup World",
+    "link": "https://nlw-copa-lovat.vercel.app/",
+    "image": "/projetos/cup.jpg",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
     ]
   }
