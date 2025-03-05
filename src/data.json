@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Fintech",
+    "link": "https://analitic-sales.vercel.app/",
+    "image": "/projetos/fintech.jpg",
+    "description": "Web Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "E-Play",
+    "link": "https://eplay-one.vercel.app/",
+    "image": "/projetos/eplay.png",
+    "description": "E-commerce Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gulp/gulp-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grunt/grunt-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Dogs",
+    "link": "https://react-dogs-ten.vercel.app/",
+    "image": "/projetos/dogs.jpg",
+    "description": "Social Midia Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "EFood",
+    "link": "https://react-ecommerce-efood.vercel.app/",
+    "image": "/projetos/efood.png",
+    "description": "Restaurant Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bikcraft",
+    "link": "https://bikcraft-final-five.vercel.app/",
+    "image": "/projetos/bikcraft.png",
+    "description": "Store Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "BeautySalon",
+    "link": "https://beauty-salon-beta.vercel.app/",
+    "image": "/projetos/beautysalon.png",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "E-menu",
+    "link": "https://e-menu-mu.vercel.app/",
+    "image": "/projetos/menu.png",
+    "description": "Delivery Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Barber",
+    "link": "https://style-salao-bootstrap.vercel.app/",
+    "image": "/projetos/style_salão.png",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "ÔFIneze",
+    "link": "https://restaurant-three-sigma.vercel.app/",
+    "image": "/projetos/fineze.png",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Pass-IN",
+    "link": "https://pass-cooking.vercel.app/",
+    "image": "/projetos/pass.png",
+    "description": "LandPage Development",
+    "technologies": [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+    ]
+  }
+]
