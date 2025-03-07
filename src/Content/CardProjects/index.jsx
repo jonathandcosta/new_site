@@ -42,6 +42,9 @@ const CardProjects = () => {
           Store
         </button>
       </div>
+      <p className={styles.total}>
+        Projetos Encontrados: <span>{filterProject.length}</span>
+      </p>
       <div className={styles.fullCards}>
         {filterProject.map((project) => (
           <div key={project.id}>
