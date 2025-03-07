@@ -100,12 +100,12 @@
   .total {
     margin-bottom: 25px;
   }
+
   .filterButtons {
     flex-wrap: nowrap;
     flex-direction: row;
     overflow: overlay;
     margin-right: 25px;
-    margin-bottom: 25px;
   }
 
   .fullCards {
