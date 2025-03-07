@@ -97,6 +97,9 @@
 }
 
 @media (max-width: 75rem) {
+  .total {
+    margin-bottom: 25px;
+  }
   .filterButtons {
     flex-wrap: nowrap;
     flex-direction: row;
