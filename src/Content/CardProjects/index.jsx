@@ -4,16 +4,46 @@ import styles from './style.module.css';
 import projectsData from '../../data.json'; // Importando os dados do JSON
 
 const CardProjects = () => {
-  const [projects, setProjects] = useState([]);
+  // Filtra os projetos com base na descrição
+  const [filter, setFilter] = useState('All');
 
-  useEffect(() => {
-    setProjects(projectsData);
-  }, []);
+  const filterProject = projectsData.filter((project) =>
+    filter === 'All' ? true : project.description === filter,
+  );
 
   return (
     <section>
+      <div className={styles.filterButtons}>
+        <button className={styles.button} onClick={() => setFilter('All')}>
+          All
+        </button>
+        <button
+          className={styles.button}
+          onClick={() => setFilter('E-commerce Development')}
+        >
+          Ecommerce
+        </button>
+        <button
+          className={styles.button}
+          onClick={() => setFilter('LandPage Development')}
+        >
+          LandPage
+        </button>
+        <button
+          className={styles.button}
+          onClick={() => setFilter('Social Midia Development')}
+        >
+          Midia
+        </button>
+        <button
+          className={styles.button}
+          onClick={() => setFilter('Store Development')}
+        >
+          Store
+        </button>
+      </div>
       <div className={styles.fullCards}>
-        {projects.map((project) => (
+        {filterProject.map((project) => (
           <div key={project.id}>
             <div className={styles.card}>
               <img
